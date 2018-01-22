@@ -1,3 +1,55 @@
 .mainheading{
     text-align: center;
 }
+
+.line{
+    border:1px solid black;
+}
+
+body{
+    background: url(https://www.thecollegeview.com/wp-content/uploads/2017/02/UCC-credit-UCC.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: white;
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #938181;
+    opacity: .8;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 2px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li:hover{
+    background-color: blue;
+}
+
+
+ul li a:hover{
+    background-color: blue;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
