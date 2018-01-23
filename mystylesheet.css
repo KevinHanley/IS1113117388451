@@ -6,7 +6,14 @@
     border:1px solid black;
 }
 
-body{
+.line2{
+    border:0.1px solid black;
+    opacity: 0.3;
+    position: relative;
+    top: 240px;
+}
+
+.homebackground{
     background: url(https://www.thecollegeview.com/wp-content/uploads/2017/02/UCC-credit-UCC.jpg) no-repeat;
     background-size: cover;
     color: white;
@@ -17,13 +24,14 @@ ul{
     padding: 0px;
     list-style: none;
     color: white;
+    border-bottom-color: white;
 }
 
 ul li{
     float: left;
     width: 200px;
     height: 40px;
-    background-color: #938181;
+    background-color: #14141f;
     opacity: .8;
     text-align: center;
     font-size: 20px;
@@ -38,12 +46,12 @@ ul li a{
 }
 
 ul li:hover{
-    background-color: blue;
+    background-color: #CF5C3F;
 }
 
 
 ul li a:hover{
-    background-color: blue;
+    background-color: #CF5C3F;
 }
 
 ul li ul li{
@@ -52,4 +60,30 @@ ul li ul li{
 
 ul li:hover ul li{
     display: block;
+}
+
+.establishments{
+    margin-left: 50%;
+    position: relative;
+    top: -100px;
+}
+
+.years{
+    margin-left: 5%;
+}
+
+.years2{
+    margin-left: 5%;
+    position: relative;
+    top: 294px;
+}
+
+.cv_positioning{
+    width: 50%
+}
+
+.cv_positioning2{
+    margin-left: 50%;
+    position: relative;
+    top: -274px;
 }
