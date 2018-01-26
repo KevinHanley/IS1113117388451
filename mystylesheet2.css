@@ -28,13 +28,22 @@ html, body{
    text-align: center;
 }
 
+.content2{
+   max-width: 500px;
+   margin: 0 auto;
+   text-align: center;
+}
+
 .content h1{
    color: #F9F3F4;
    font-size: 500%;
-   transition: all 2.5s ease;
+}
+.content h3{
+   color: #F9F3F4;
+   font-size: 250%;
 }
 
-.btn{
+.button, .button2, .button3, .button4, .button5{
    border-radius: 9px;
    color: 	#333399;
    font-size: 135%;
@@ -45,7 +54,7 @@ html, body{
    text-align: center;
 }
 
-.btn:hover{
+.button:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
    color: #FFF;
    border: solid #FFF 3px;
 }
@@ -55,7 +64,11 @@ html, body{
    font-size: 250%;
    }
    
- .btn{
+   .content h3{
+   font-size: 125%;
+   }
+   
+   .button, .button2, .button3, .button4, .button5{
    font-size: 100%;
    padding: 7px 15px;
 }
