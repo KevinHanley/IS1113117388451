@@ -1,0 +1,62 @@
+html, body{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+.intro{
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   background: url(https://cdn.suwalls.com/wallpapers/nature/blue-mountain-range-26305-1920x1080.jpg) no-repeat;
+   background-size: cover;
+   display: table;
+   top: 0;
+}
+
+.intro .inner{
+  display: table-cell;
+  width: 100%;
+  max-width: none;
+  vertical-align: middle;
+}
+
+.content{
+   max-width: 500px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.content h1{
+   color: #F9F3F4;
+   font-size: 500%;
+   transition: all 2.5s ease;
+}
+
+.btn{
+   border-radius: 9px;
+   color: 	#333399;
+   font-size: 135%;
+   padding: 10px 20px;
+   border: solid 	#333399 3px;
+   text-transform: uppercase;
+   text-decoration: none;
+   text-align: center;
+}
+
+.btn:hover{
+   color: #FFF;
+   border: solid #FFF 3px;
+}
+
+@media only screen and (max-width:770px) {
+   .content h1{
+   font-size: 250%;
+   }
+   
+ .btn{
+   font-size: 100%;
+   padding: 7px 15px;
+}
+}
