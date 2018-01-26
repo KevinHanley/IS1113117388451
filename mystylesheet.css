@@ -39,54 +39,59 @@
     top: -274px;
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.intro{
-    height: 100%;
-    width: 100%;
-    margin: auto;
+.picture{
     background: url(https://cdn.suwalls.com/wallpapers/nature/blue-mountain-range-26305-1920x1080.jpg) no-repeat;
     background-size: cover;
-    display: table;
-    top: 0;
 }
 
-.intro .inner{
-    display: table-cell;
-    width: 100%;
-    max-width: none;
-    vertical-align: middle;
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: white;
+    border-bottom-color: white;
 }
 
-.content{
-    max-width: 500px;
-    margin: 0 auto;
+
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #14141f;
+    opacity: .8;
     text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 2px;
 }
 
-.content h1{
-    color: #F9F3F4;
-    font-size: 500%;
-    transition: all 2.5s ease;
-}
 
-.btn{
-    border-radius: 9px;
-    color: 	#333399;
-    font-size: 135%;
-    padding: 10px 20px;
-    border: solid 	#333399 3px;
-    text-transform: uppercase;
+
+ul li a{
     text-decoration: none;
-    text-align: center;
+    color: white;
+    display: block;
 }
 
-.btn:hover{
-    color: #FFF;
-    border: solid #FFF 3px;
+ul li:hover{
+    background-color: #CF5C3F;
+}
+
+ul li a:hover{
+    background-color: #CF5C3F;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
 }
