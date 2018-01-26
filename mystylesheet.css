@@ -90,13 +90,3 @@ html, body{
     color: #FFF;
     border: solid #FFF 3px;
 }
-
-@media only screen and (max-width:770px) {
-    .content h1{
-        font-size: 250%;
-    }
-    .btn{
-        font-size: 100%;
-        padding: 7px 15px;
-    }
-}
