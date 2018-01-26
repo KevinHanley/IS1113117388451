@@ -30,8 +30,14 @@ html, body{
 
 .content2{
    max-width: 500px;
-   margin: 0 auto;
    text-align: center;
+   position: fixed;
+   top: 50%;
+   left: 25%;
+   display: flex;
+   flex-wrap: nowrap;
+   
+   
 }
 
 .content h1{
