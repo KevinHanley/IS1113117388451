@@ -29,27 +29,41 @@ html, body{
 }
 
 .content2{
-   max-width: 500px;
+   max-width: none;
+   margin: 0 auto;
    text-align: center;
    position: fixed;
    top: 50%;
-   left: 25%;
-   display: flex;
-   flex-wrap: nowrap;
-   
-   
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.content2 ul li{
+   list-style-type: none;
 }
 
 .content h1{
    color: #F9F3F4;
    font-size: 500%;
 }
+
 .content h3{
    color: #F9F3F4;
    font-size: 250%;
 }
 
-.button, .button2, .button3, .button4, .button5{
+.button{
+   border-radius: 9px;
+   color: 	#333399;
+   font-size: 135%;
+   padding: 10px 20px;
+   border: solid 	#333399 3px;
+   text-transform: uppercase;
+   text-decoration: none;
+   text-align: center;
+}
+
+.button2, .button3, .button4, .button5{
    border-radius: 9px;
    color: 	#333399;
    font-size: 135%;

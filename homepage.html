@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>117388451</title>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    </head>
-    <body class="picture">
-        <ul class="flex-container">
-            <li><a href="CV/cv_page1.html">Curriculum Vitae</a>
-                <ul>
-                    <li><a href="CV/cv_page1.html">Page 1</a></li>
-                    <li><a href="CV/cv_page2.html">Page 2</a></li>
-                    <li><a href="CV/cv_page3.html">Page 3</a></li>
-                </ul>
-            </li>
-            <li><a href="Interests/sports.html">My Interests</a>
-                <ul>
-                    <li><a href="Interests/sports.html">Sports</a></li>
-                    <li><a href="Interests/travel.html">Travel</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-            </li>
-            <li>CS Online Shop
-                <ul>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-            </li>
-            <li>E-Business
-                <ul>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-            </li>
-            <li>New Home
-                <ul>
-                    <li><a href="homepage2.html">New Home</a></li>
-                </ul>
-            </li>
-        </ul>
-    </body>
+<head>
+  <title>117388451</title>
+  <link rel="stylesheet" href="mystylesheet2.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+</head>
+    
+<body onload="hide()" >
+ 		<section class="intro">
+     		 <div class="inner" >
+  			     <div id="demo" class="content">
+   		         <h1>117388451</h1>
+   		         <h3>IS1113 Project</h3>
+   		         <a class="button" onclick="fade()">Welcome</a>
+    		    </div>
+    		    
+    		    <div id="replace" class="content2">
+    		      <ul>
+    		      <li><a class="button2" href="CV/cv_page1.html">Curriculum Vitae</a></li>
+    		      <li><br></li>
+    		      <li><br></li>
+    		      <li><a class="button3" href="Interests/sports.html">My Interests</a></li>
+    		      <li><br></li>
+    		      <li><br></li>
+    		      <li><a class="button4" href="#">Cloud Service Vendor</a></li>
+    		      <li><br></li>
+    		      <li><br></li>
+    		      <li><a class="button5" href="#">Shop</a></li>
+    		      </ul>
+    		    </div>
+     		</div>
+    </section>
+
+    <script>
+      function fade() {
+      document.getElementById("demo").style.visibility = "hidden";
+      document.getElementById("replace").style.visibility = "visible";
+      }
+      
+      function hide() {
+      document.getElementById("replace").style.visibility = "hidden";
+      }      
+    </script>
+</body>
 </html>
