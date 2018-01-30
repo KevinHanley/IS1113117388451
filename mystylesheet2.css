@@ -38,6 +38,11 @@ html, body{
    transform: translate(-50%,-50%);
 }
 
+.content3{
+   position: relative;
+   left: -20px;
+}
+
 .content2 ul li{
    list-style-type: none;
 }
@@ -54,24 +59,26 @@ html, body{
 
 .button{
    border-radius: 9px;
-   color: 	#333399;
+   color: #000;
    font-size: 135%;
    padding: 10px 20px;
-   border: solid 	#333399 3px;
+   border: solid 	#000 3px;
    text-transform: uppercase;
    text-decoration: none;
    text-align: center;
+   cursor: pointer;
 }
 
 .button2, .button3, .button4, .button5{
    border-radius: 9px;
-   color: 	#333399;
+   color: 	#000;
    font-size: 135%;
    padding: 10px 20px;
-   border: solid 	#333399 3px;
+   border: solid 	#000 3px;
    text-transform: uppercase;
    text-decoration: none;
    text-align: center;
+   cursor: pointer;
 }
 
 .button:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
@@ -79,7 +86,9 @@ html, body{
    border: solid #FFF 3px;
 }
 
-@media only screen and (max-width:770px) {
+
+
+@media only screen and (max-width:670px) {
    .content h1{
    font-size: 250%;
    }
@@ -91,5 +100,5 @@ html, body{
    .button, .button2, .button3, .button4, .button5{
    font-size: 100%;
    padding: 7px 15px;
-}
+   }
 }
