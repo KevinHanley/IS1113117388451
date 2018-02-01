@@ -46,6 +46,30 @@ html, body{
     top: 10%;
 }
 
+.cv_positioning3{
+    width: 48%;
+    position: fixed;
+    top: 45%;
+}
+
+.cv_positioning4{
+    margin-left: 50%;
+    position: fixed;
+    top: 45%;
+}
+
+.cv_positioning5{
+    width: 48%;
+    position: fixed;
+    top: 80%;
+}
+
+.cv_positioning6{
+    margin-left: 50%;
+    position: fixed;
+    top: 80%;
+}
+
 .picture{
     height: 100%;
     width: 100%;
@@ -65,24 +89,43 @@ html, body{
     font-size: 125%;
 }
 
-    .cv_positioning h4{
-    font-size: 75%;
-}
-
     .cv_positioning p{
     font-size: 50%;
-}
+    position: fixed;
+    top: 5%;
 
-    .cv_positioning2 h4{
-    font-size: 75%;
 }
 
     .cv_positioning2 p{
     font-size: 50%;
+    position: fixed;
+    top: 5%;
 }
 
     .cv_positioning2 ul{
     font-size: 50%;
+    position: fixed;
+    top: 10%;
+}
+
+
+
+    .cv_positioning3 p{
+    font-size: 50%;
+    position: fixed;
+    top: 40%;
+}
+
+    .cv_positioning4 p{
+    font-size: 50%;
+    position: fixed;
+    top: 40%;
+}
+
+    .cv_positioning4 ul{
+    font-size: 50%;
+    position: fixed;
+    top: 45%;
 }
 
 }

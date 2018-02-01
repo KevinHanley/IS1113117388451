@@ -57,7 +57,7 @@ html, body{
    font-size: 250%;
 }
 
-.button{
+.btnWelcome{
    border-radius: 9px;
    color: #000;
    font-size: 135%;
@@ -69,7 +69,7 @@ html, body{
    cursor: pointer;
 }
 
-.button2, .button3, .button4, .button5{
+.btnCV, .btnInterests, .btnEBusiness, .btnShop{
    border-radius: 9px;
    color: 	#000;
    font-size: 135%;
@@ -81,7 +81,7 @@ html, body{
    cursor: pointer;
 }
 
-.button:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+.btnWelcome:hover, .btnCV:hover, .btnInterests:hover, .btnEBusiness:hover, .btnShop:hover {
    color: #FFF;
    border: solid #FFF 3px;
 }
@@ -97,7 +97,7 @@ html, body{
    font-size: 125%;
    }
    
-   .button, .button2, .button3, .button4, .button5{
+   .btnWelcome, .btnCV, .btnInterests, .btnEBusiness, .btnShop{
    font-size: 100%;
    padding: 7px 15px;
    }
