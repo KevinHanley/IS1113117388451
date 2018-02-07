@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Personal</title>
-        <link rel="stylesheet" href="cv_pages.css" type="text/css" />
+        
+        <link rel="stylesheet" href="../Homepage/navbar.css" type="text/css"/>
+        <link rel="stylesheet" href="../CV/cv_pages.css" type="text/css"/>
         
         <!-- Adding bootstraping -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous" />
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
     </head>
     
-    <body class="picture">
+    <body>
         <header>
-            <h1 class="mainheading">Curriculum Vitae</h1>
+            <div class="container">
+                
+                <p class="logo"><strong>Kevin Hanley</strong></p>
+                
+                <nav>
+                    <ul>
+                        <li><a href="../Homepage/homepage.html">Home</a></li>
+                        <li><a href="../CV/cv_page1.html">CV</a></li>
+                        <li><a href="../Interests/sport.html">Interests</a></li>
+                        <li><a href="../E-Business/Ebus1.php">E-Business</a></li>
+                        <li><a href="#">Cloud Services</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
         </header>
         
+        <section>
             <div class="cv1_positioning">
                 <h4><strong>Personal Details</strong></h4>
                 <p><strong>Name:</strong>Kevin Hanley</p>
@@ -38,7 +57,9 @@
                     in computing and software applications.
                 </p>
             </div>
-            
+        </section>
+        
+        <section>
             <div class="cv1_positioning2">
                 <h4><strong>Skills</strong></h4>
                 
@@ -59,10 +80,15 @@
                     <li>Hiking</li>
                 </ul>
             </div>
+        </section>
         
-        <div class="btn_positions">    
-        <a href="../Homepage/homepage.html" class="btn btn-dark">Back</a>
-        <a href="cv_page2.html" class="btn btn-dark">Next</a>
-        </div>
+        <footer>
+            <div class="btn_positions">    
+                <a href="../Homepage/homepage.html" class="btn btn-dark">Return to Home</a>
+                <a href="cv_page2.html" class="btn btn-dark">Go to Education</a>
+            </div>
+        </footer>
+        
+        
     </body>
 </html>

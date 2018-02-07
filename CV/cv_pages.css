@@ -1,44 +1,29 @@
-/* Code for all CV pages */
-html, body{
-   margin: 0;
-   padding: 0;
-   height: 100%;
-   width: 100%;
-}
-
-.picture{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(https://www.fg-a.com/wallpapers/2017-3-geo-pattern.jpg) no-repeat;
-    background-size: cover;
-}
-
-.mainheading{
-    text-align: center;
-    color: #FFF;
-    background-color: #585858;
+            /* all CV pages */
+.btn_positions{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
 }
 
 
 
-/* Cv page 1 code */
+            /* Cv page 1 code */
 .cv1_positioning{
-    width: 48%;
-    position: fixed;
-    top: 10%;
+    width: 33%;
     margin-left: 15%;
+    position: fixed;
+    top: 15%;
 }
 
 .cv1_positioning2{
-    margin-left: 65%;
+    margin-left: 55%;
     position: fixed;
-    top: 10%;
+    top: 15%;
 }
 
 
 
-/* Cv page 2 code */
+            /* Cv page 2 code */
 .years{
     margin-left: 15%;
     position: fixed;
@@ -66,7 +51,7 @@ html, body{
 
 
 
-/* CV page 3 code */
+            /* CV page 3 code */
 .cv3_positioning{
     width: 48%;
     position: fixed;
@@ -93,71 +78,4 @@ html, body{
     position: fixed;
     top: 50%;
     margin-left: 50%
-}
-
-
-/* positioning the buttons on each CV page */
-.btn_positions{
-    position: absolute;
-    bottom: 5%;
-    right: 10%;
-}
-
-.btn_positions a:hover{
-    background-color: green;
-}
-
-
-
- /* Code for re-sizing content for smaller device screens*/
-@media only screen and (max-width:670px) {
-    
-    /* CV page 1 code */
-    .mainheading{
-    font-size: 175%;
-}
-
-    .cv1_positioning p{
-    font-size: 75%;
-}
-
-    .cv1_positioning h4{
-    font-size: 100%;
-}
-
-    .cv1_positioning2 p{
-    font-size: 75%;
-}
-
-    .cv1_positioning2 ul{
-    font-size: 75%;
-}
-
-    .cv1_positioning2 h4{
-    font-size: 100%;
-}
-
-/* CV page 2 code */
-
-
-
-
-    .cv_positioning3 p{
-    font-size: 50%;
-    position: fixed;
-    top: 40%;
-}
-
-    .cv_positioning4 p{
-    font-size: 50%;
-    position: fixed;
-    top: 40%;
-}
-
-    .cv_positioning4 ul{
-    font-size: 50%;
-    position: fixed;
-    top: 45%;
-}
-
 }
