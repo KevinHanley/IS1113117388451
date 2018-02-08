@@ -7,9 +7,12 @@ function validateDetails(){
     pin = document.getElementById("user_pin").value;
     
     if (pin == ""){
-        alert("Please enter your Email ID");
+        alert("Please enter a valid PIN");
     }
     else if (String(pin).length < 4){
+        alert("Please make sure your PIN is accurate");
+    }
+    else if (String(pin).length > 4){
         alert("Please make sure your PIN is accurate");
     }
     else{

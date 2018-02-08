@@ -3,13 +3,17 @@ body{
     background-color: #FFF;
 }
 
-.container{
+.nav_container{
     width: 80%;
     margin: 0 auto;
+    height: 78px;
 }
 
 header{
     background: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
 }
 
 header::after{
@@ -18,11 +22,12 @@ header::after{
     clear: both;
 }
 
-.logo{
+.nav_logo{
     float: left;
     font-size: 25px;
     color: #fff;
-    font-family: Consolas;
+    position: relative;
+    top: 15px;
 }
 
 nav{
@@ -37,8 +42,8 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 31px;
+    margin-left: 75px;
+    padding-top: 25px;
     
     position: relative;
 }
@@ -51,6 +56,7 @@ nav a{
 
 nav a:hover{
     color: #fff;
+    text-decoration: none;
 }
 
 nav a::after{
@@ -58,6 +64,7 @@ nav a::after{
     display: block;
     height: 5px;
     background-color: #fff;
+    text-decoration: none;
     
     position: absolute;
     top: 50px;
@@ -67,6 +74,7 @@ nav a::after{
 
 nav a:hover::after{
     width: 100%;
+    text-decoration: none;
 }
 
 .homemessage{

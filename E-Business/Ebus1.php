@@ -13,47 +13,67 @@
         
             <h4>Select a Product</h4>
             
-            <br/>
+            <br>
             
             <form method="POST" action="Ebus2.php">
               
               <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+                <input type="radio" id="salesforce" name="product" onClick="disablebtnProceed(); calcSub()"/>
+                SalesForce @ $300
               </label>
               
-              <br/>
+              <br>
               
               <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                <input type="radio" id="aws" name="product" onClick="disablebtnProceed(); calcSub()"/>
+                AWS @ $250
               </label>
               
-              <br/>
-              <br/>
+              <br>
+              
+              <label for="akamai">
+                <input type="radio" id="akamai" name="product" onClick="disablebtnProceed(); calcSub()"/>
+                Akamai @ $200
+              </label>
+              
+              
+              <br>
+              
+              <label for="googleapps">
+                <input type="radio" id="googleapps" name="product" onClick="disablebtnProceed(); calcSub()"/>
+                Google Apps @ $150
+              </label>
+              
+              <br>
+              
+              <label for="linkedin">
+                <input type="radio" id="linkedin" name="product" onClick="disablebtnProceed(); calcSub()"/>
+                LinkedIn @ $100
+              </label>
+              
+              <br>
+              <br>
               
               <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
               </label>
               
-              <br/>
+              <br>
               
               <label for="total">
                 Total
                 <input type="text" id="total" value="0.00" readonly/>
               </label>
     
-              <br/>
+              <br>
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
-            <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
+            <br>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            
     
     </body>
 </html>

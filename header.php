@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>117388451</title>
         <link rel="stylesheet" href="navbar.css" type="text/css"/>
     </head>
     
@@ -19,16 +18,10 @@
                         <li><a href="CV/cv_page1.html">CV</a></li>
                         <li><a href="Interests/sports.html">Interests</a></li>
                         <li><a href="E-Business/Ebus1.php">E-Business</a></li>
-                        <li><a href="#">Cloud Services</a></li>
                     </ul>
                 </nav>
                 
             </div>
         </header>
-        
-        <section>
-            <p class="homemessage">Welcome to my website.</p>
-        </section>
-        
     </body>
 </html>

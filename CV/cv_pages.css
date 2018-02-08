@@ -1,24 +1,39 @@
             /* all CV pages */
 .btn_positions{
     position: absolute;
-    bottom: 5%;
-    right: 10%;
+    top: 95%;
+    left: 40%;
 }
 
+body,html{
+    height: 100%;
+    width: 100%;
+}
 
 
             /* Cv page 1 code */
 .cv1_positioning{
     width: 33%;
-    margin-left: 15%;
-    position: fixed;
+    margin-left: 55%;
+    position: absolute;
     top: 15%;
 }
 
 .cv1_positioning2{
     margin-left: 55%;
-    position: fixed;
-    top: 15%;
+    position: absolute;
+    top: 80%;
+}
+
+.self_pic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+h1:nth-of-type(2){
+    color: #f5b800;
+    font-size: 300%;
 }
 
 

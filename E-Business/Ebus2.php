@@ -12,7 +12,7 @@
         
             <form action="Ebus3.php" method="POST">
 
-                    <label for="user_pin">Email</label>
+                    <label for="user_pin">PIN</label>
                     <input type="pin" id="user_pin" name="user_pin" placeholder="1234">
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>

@@ -5,10 +5,19 @@ function calcSub(){
     var argSubTotal;
     
     if(document.getElementById('salesforce').checked) {
-      argSubTotal = 100;
-    }
-    else {
       argSubTotal = 300;
+    }
+    else if (document.getElementById('aws').checked){
+      argSubTotal = 250;
+    }
+    else if (document.getElementById('akamai').checked){
+      argSubTotal = 200;
+    }
+    else if (document.getElementById('googleapps').checked){
+      argSubTotal = 150;
+    }
+    else{
+      argSubTotal = 100;
     }
     
     display(argSubTotal);
