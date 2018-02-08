@@ -1,8 +1,8 @@
             /* all CV pages */
 .btn_positions{
-    position: absolute;
+    position: fixed;
     top: 95%;
-    left: 40%;
+    left: 70%;
 }
 
 body,html{
@@ -12,28 +12,50 @@ body,html{
 
 
             /* Cv page 1 code */
+.personal_heading{
+    position: absolute;
+    top: 53%;
+    left: 28%;
+}
+
 .cv1_positioning{
     width: 33%;
-    margin-left: 55%;
+    margin-left: 48%;
     position: absolute;
-    top: 15%;
+    top: 25%;
+}
+
+.cv1_positioning3{
+    margin-left: 48%;
+    position: absolute;
+    top: 94%;
 }
 
 .cv1_positioning2{
-    margin-left: 55%;
+    width: 33%;
+    margin-left: 48%;
     position: absolute;
-    top: 80%;
+    top: 53%;  
 }
 
-.self_pic{
+.self_pic {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 16%;
+    left: 18%;
+}
+
+img{
+    width: 80%;
+    border-radius: 10%;
 }
 
 h1:nth-of-type(2){
     color: #f5b800;
     font-size: 300%;
+}
+
+p:nth-of-type(1), p:nth-of-type(2){
+    display: inline;
 }
 
 
