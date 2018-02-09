@@ -14,3 +14,80 @@
     text-align: center;
     color: white;
 }
+
+.cloud_button1{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    text-decoration: none;
+    background-color: #333;;
+    border-radius: 10%;
+    color: white;
+}
+
+.cloud_button2{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 10%;
+    color: white;
+}
+
+
+/* Cloud Services page */
+
+.cloud_heading{
+    position: absolute;;
+    margin-left: 15%;
+    top: 20%;
+}
+
+.cloud_body{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 25%;
+}
+
+.cloud_heading2{
+    position: absolute;;
+    margin-left: 15%;
+    top: 40%;
+}
+
+.cloud_body2{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 45%;
+}
+
+.cloud_heading3{
+    position: absolute;;
+    margin-left: 15%;
+    top: 60%;
+}
+
+.cloud_body3{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 65%;
+}
+
+.cloud_heading4{
+    position: absolute;;
+    margin-left: 15%;
+    top: 80%;
+}
+
+.cloud_body4{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 85%;
+}
+
+
