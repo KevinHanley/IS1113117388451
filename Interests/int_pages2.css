@@ -42,6 +42,22 @@
 
 
 /* Sports page */
+.aaronrodgerspic{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 15%;
+    top: 55%;
+}
+
+.greenbaypic{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 50%;
+    top: 55%;
+}
+
 .sportsheading1{
     position: absolute;
     margin-left: 15%;
