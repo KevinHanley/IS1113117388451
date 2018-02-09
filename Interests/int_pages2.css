@@ -15,7 +15,10 @@
     color: white;
 }
 
-.cloud_button1{
+
+
+
+.interests_button1{
     position: fixed;
     top: 90%;
     left: 85%;
@@ -25,7 +28,7 @@
     color: white;
 }
 
-.cloud_button2{
+.interests_button2{
     position: fixed;
     top: 90%;
     left: 90%;
@@ -36,10 +39,56 @@
 }
 
 
+
+
+/* Sports page */
+.sportsheading1{
+    position: absolute;
+    margin-left: 15%;
+}
+
+.sportsbody1{
+    position: absolute;
+    margin-left: 15%;
+    top: 22%;
+}
+
+.sportsbody2{
+    position: absolute;
+    margin-left: 15%;
+    top: 25%;
+}
+
+
+.sportsheading2{
+    position: absolute;
+    margin-left: 15%;
+    top: 40%;
+}
+
+.sportsbody3{
+    position: absolute;
+    margin-left: 15%;
+    top: 43%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Cloud Services page */
 
 .cloud_heading{
-    position: absolute;;
+    position: absolute;
     margin-left: 15%;
     top: 20%;
 }
@@ -52,7 +101,7 @@
 }
 
 .cloud_heading2{
-    position: absolute;;
+    position: absolute;
     margin-left: 15%;
     top: 40%;
 }
@@ -65,7 +114,7 @@
 }
 
 .cloud_heading3{
-    position: absolute;;
+    position: absolute;
     margin-left: 15%;
     top: 60%;
 }
@@ -78,7 +127,7 @@
 }
 
 .cloud_heading4{
-    position: absolute;;
+    position: absolute;
     margin-left: 15%;
     top: 80%;
 }
