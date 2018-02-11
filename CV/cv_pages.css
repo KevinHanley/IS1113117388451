@@ -18,17 +18,35 @@ body,html{
     left: 28%;
 }
 
+.skills_heading{
+    margin-left: 28%;
+    position: absolute;
+    top: 94%;
+}
+
+.interests_heading{
+    margin-left: 28%;
+    position: absolute;
+    top: 120%;
+}
+
+
+.self_pic {
+    position: absolute;
+    top: 16%;
+    left: 18%;
+}
+
+.self_pic img{
+    width: 80%;
+    border-radius: 10%;
+}
+
 .cv1_positioning{
     width: 33%;
     margin-left: 48%;
     position: absolute;
     top: 25%;
-}
-
-.cv1_positioning3{
-    margin-left: 48%;
-    position: absolute;
-    top: 94%;
 }
 
 .cv1_positioning2{
@@ -38,15 +56,16 @@ body,html{
     top: 53%;  
 }
 
-.self_pic {
+.cv1_positioning3{
+    margin-left: 48%;
     position: absolute;
-    top: 16%;
-    left: 18%;
+    top: 94%;
 }
 
-img{
-    width: 80%;
-    border-radius: 10%;
+.cv1_positioning4{
+    margin-left: 48%;
+    position: absolute;
+    top: 120%;
 }
 
 h1:nth-of-type(2){
@@ -60,30 +79,67 @@ p:nth-of-type(1), p:nth-of-type(2){
 
 
 
-            /* Cv page 2 code */
+
+            /* CV page 2 code */
+.colmans_pic{
+    position: absolute;
+    top: 20%;
+    margin-left: 10%;
+}
+
+.colmans_pic img{
+    width: 80%;
+    border-radius: 10%;
+}
+
+.cv2_school{
+    width: 33%;
+    margin-left: 48%;
+    position: absolute;
+    top: 25%;
+}
+
 .years{
-    margin-left: 15%;
-    position: fixed;
-    top: 10%;
+    margin-left: 48%;
+    position: absolute;
+    top: 32%;
+}
+
+.jc_results{
+    margin-left: 65%;
+    position: absolute;
+    top: 40%;
+}
+
+.lc_results{
+    margin-left: 48%;
+    position: absolute;
+    top: 40%;
 }
 
 .years2{
-    margin-left: 15%;
-    position: fixed;
-    top: 60%;
-
+    margin-left: 48%;
+    position: absolute;
+    top: 90%;
 }
 
-.establishments{
-    margin-left: 50%;
-    position: fixed;
-    top: 10%;
+
+
+.ucc_pic{
+    position: absolute;
+    top: 90%;
+    margin-left: 10%;
+}
+
+.ucc_pic img{
+    width: 52%;
+    border-radius: 10%;
 }
 
 .establishments2{
-    margin-left: 50%;
-    position: fixed;
-    top: 60%;
+    margin-left: 48%;
+    position: absolute;
+    top: 95%;
 }
 
 
