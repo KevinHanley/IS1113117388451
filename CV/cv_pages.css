@@ -83,92 +83,159 @@ p:nth-of-type(1), p:nth-of-type(2){
             /* CV page 2 code */
 .colmans_pic{
     position: absolute;
-    top: 20%;
-    margin-left: 10%;
+    top: 16%;
+    left: 18%;
 }
 
 .colmans_pic img{
-    width: 80%;
+    width: 60%;
     border-radius: 10%;
 }
 
 .cv2_school{
-    width: 33%;
-    margin-left: 48%;
+    width: 40%;
     position: absolute;
-    top: 25%;
+    left: 45%;
+    top: 20%;
 }
 
 .years{
-    margin-left: 48%;
     position: absolute;
-    top: 32%;
+    top: 30%;
+    left: 45%;
+}
+
+.summary_heading{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.summary_body{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.awards_heading{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+.awards_body{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.results_heading{
+    position: absolute;
+    top: 80%;
+    left: 28%;
 }
 
 .jc_results{
-    margin-left: 65%;
     position: absolute;
-    top: 40%;
+    top: 80%;
+    left: 45%;
 }
 
 .lc_results{
-    margin-left: 48%;
     position: absolute;
-    top: 40%;
+    top: 85%;
+    left: 68%;
 }
 
-.years2{
-    margin-left: 48%;
+.lc_points{
     position: absolute;
-    top: 90%;
+    top: 117%;
+    left: 71%;
 }
-
-
 
 .ucc_pic{
     position: absolute;
-    top: 90%;
-    margin-left: 10%;
+    top: 140%;
+    left: 18%;
 }
 
 .ucc_pic img{
-    width: 52%;
+    width: 39%;
     border-radius: 10%;
 }
 
-.establishments2{
-    margin-left: 48%;
+.cv2_university{
+    width: 40%;
     position: absolute;
-    top: 95%;
+    left: 45%;
+    top: 150%;
+}
+
+.years2{
+    position: absolute;
+    top: 160%;
+    left: 45%;
+}
+
+.ucc_course{
+    position: absolute;
+    top: 170%;
+    left: 45%;
 }
 
 
 
             /* CV page 3 code */
-.cv3_positioning{
-    width: 48%;
-    position: fixed;
-    top: 10%;
-    margin-left: 25%;
+            
+.tossbryan_pic{
+    position: absolute;
+    top: 16%;
+    left: 18%;
+}
+
+.tossbryan_pic img{
+    width: 60%;
+    border-radius: 10%;
+}
+            
+.cv3_workplace{
+    width: 40%;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+.cv3_years{
+    position: absolute;
+    top: 30%;
+    left: 45%;
 }
 
 .cv3_positioning2{
     width: 48%;
-    position: fixed;
-    top: 10%;
-    margin-left: 50%
+    position: absolute;
+    top: 40%;
+    left: 45%;
 }
 
-.cv3_positioning3{
-   width: 48%;
-    position: fixed;
-    top: 50%;
-    margin-left: 25%; 
+
+.cv3_workplace2{
+    width: 40%;
+    position: absolute;
+    left: 45%;
+    top: 80%;
 }
+
+.cv3_years2{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
 
 .cv3_positioning4{
     width: 48%;
-    position: fixed;
-    top: 50%;
-    margin-left: 50%
+    position: absolute;
+    top: 100%;
+    left: 45%;
 }
