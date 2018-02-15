@@ -172,6 +172,24 @@
     border-radius: 10%;
 }
 
+/* Section 3 */
+.skellig_pic{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+
+.city_pic{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
 
 
 
