@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start()
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -23,6 +27,7 @@
             <button onClick="validateDetails()">Validate</button>
         
         <?php  
+        // Set session variables
           $_SESSION["total"] = $_POST["total"];
         ?>
         

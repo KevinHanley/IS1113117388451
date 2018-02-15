@@ -17,7 +17,7 @@
 
 
 
-
+ /* all pages */
 .interests_button1{
     position: fixed;
     top: 90%;
@@ -42,52 +42,58 @@
 
 
 /* Sports page */
+.munster_fans_pic{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.munster_fans_pic img{
+    width: 60%;
+    border-radius: 10%;
+}
+
+.sport_heading{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+.rugby_body{
+    position: absolute;
+    left: 45%;
+    top: 30%; 
+}
+
 .aaronrodgerspic{
     position: absolute;
     width: 30%;
     height: 40%;
     left: 15%;
     top: 55%;
+    border-radius: 10%;
 }
 
 .greenbaypic{
     position: absolute;
     width: 30%;
     height: 40%;
-    left: 50%;
+    left: 15%;
+    top: 100%;
+    border-radius: 10%;
+}
+
+.sport_heading2{
+    position: absolute;
+    left: 45%;
     top: 55%;
 }
 
-.sportsheading1{
+.af_body{
     position: absolute;
-    margin-left: 15%;
+    left: 45%;
+    top: 60%;
 }
-
-.sportsbody1{
-    position: absolute;
-    margin-left: 15%;
-    top: 22%;
-}
-
-.sportsbody2{
-    position: absolute;
-    margin-left: 15%;
-    top: 25%;
-}
-
-
-.sportsheading2{
-    position: absolute;
-    margin-left: 15%;
-    top: 40%;
-}
-
-.sportsbody3{
-    position: absolute;
-    margin-left: 15%;
-    top: 43%;
-}
-
 
 
 

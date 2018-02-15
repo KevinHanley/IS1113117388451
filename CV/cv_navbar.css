@@ -77,9 +77,4 @@ nav a:hover::after{
     text-decoration: none;
 }
 
-.homemessage{
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    font-size: 300%;
-}
+
