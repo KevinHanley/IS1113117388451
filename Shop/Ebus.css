@@ -1,5 +1,65 @@
 .ebus_content{
     position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.ebus_content h1{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.ebus_content .label1{
+    position: absolute;
     top: 20%;
+    left: 43%;
+}
+
+.ebus_content .label2{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.ebus_content .label3{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.ebus_content .label4{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+
+.cal_btn{
+    position: absolute;
+    top: 41%;
     left: 45%;
+}
+
+.ebus_content .label5{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+}
+
+.ebus_content .label6{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+.ebus_content .label7{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+}
+.ebus_content .label8{
+    position: absolute;
+    top: 72%;
+    left: 43%;
 }

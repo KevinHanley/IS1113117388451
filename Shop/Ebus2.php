@@ -17,7 +17,7 @@ session_start()
             <form action="Ebus3.php" method="POST">
 
                     <label for="user_pin">PIN</label>
-                    <input type="pin" id="user_pin" name="user_pin" placeholder="1234">
+                    <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4">
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
