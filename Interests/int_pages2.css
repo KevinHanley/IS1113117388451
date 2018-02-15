@@ -94,31 +94,42 @@
     background-color: rgb(51, 153, 204)
 }
 
-    /* Section 1 */
 .section{
     text-align: center;
     color: white;
 }
 
-.section1_country{
+.section_country{
     font-size: 350%;
     position: absolute;
     left: 60%;
     top: 12%;
 }
 
-.section1_tag{
+.section_tag{
     position: absolute;
     left: 60%;
     top: 22%;
 }
 
+
+/* Section 1 */
 .tenerife_pic{
     position: absolute;
     top: 15%;
     left: 10%;
     width: 30%;
     height: 30%;
+    border-radius: 10%;
+}
+
+.siampark_pic{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
 }
 
 .p1{
@@ -132,9 +143,34 @@
     max-width: 50%;
     position: absolute;
     left: 45%;
-    top: 35%;
+    top: 40%;
 }
 
+.p3{
+    max-width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+}
+
+/* Section 2 */
+.operahouse_pic{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+
+.kangaroo_pic{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
 
 
 
