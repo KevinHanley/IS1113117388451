@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Cloud Services</title>
+        <meta charset="utf-8"/>
+        <title>Travel</title>
+        <link rel="stylesheet" href="int_pages2.css" type="text/css">
         <link rel="stylesheet" href="../navbar.css" type="text/css"/>
-        <link rel="stylesheet" href="int_pages2.css" type="text/css"/>
+        
+        <!-- Adding bootstraping -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+       
+        <!-- PagePiling -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+	        $('#pagepiling').pagepiling();
+            });
+        </script>
     </head>
     
     <body>
@@ -35,9 +50,22 @@
             </div>
         </section>
         
-        <section>
-            <p class="cloud_int">There are many reasons why I find Cloud Computing Services interesting. In my opinion, cloud services are the future of computer storage, both for personal use and business use. The following is a list of the key reasons I support the move towards Cloud computing Services. </p>
-        </section>
+        <div id="pagepiling">
+            <!-- Section 1 -->
+    	    <div class="section" id="section1">
+                <p class="cloud_int">There are many reasons why I find Cloud Computing Services interesting. In my opinion, cloud services are the future of computer storage, both for personal use and business use. The following is a list of the key reasons I support the move towards Cloud computing Services. </p>
+    	    </div>
+    	    
+    	    <!-- Section 2 -->
+    	    <div class="section" id="section2">
+    	        <h1>Reason 2</h1>
+    	    </div>
+    	    
+    	    <!-- Section 3 -->
+    	    <div class="section" id="section3">
+    	        <h1>Reason 3</h1>
+    	    </div>
+    	</div>
         
         <a href="sport.html" class="interests_button1">Sports</a>
 	    <a href="../homepage.html" class="interests_button2">Home</a>
