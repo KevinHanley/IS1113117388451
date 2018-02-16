@@ -75,7 +75,7 @@ nav a:hover::after{
 .homemessage{
     position: absolute;
     top: 42%;
-    left: 25%;
+    left: 29%;
     font-size: 300%;
 }
 
@@ -127,7 +127,7 @@ nav a:hover::after{
 .commits_link{
     position: absolute;
     top: 66%;
-    left: 45%;
+    left: 43%;
     text-decoration: none;
     color: #000;
 }
