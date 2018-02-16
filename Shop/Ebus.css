@@ -63,3 +63,15 @@
     top: 72%;
     left: 43%;
 }
+
+.add_btn{
+    position: absolute;
+    top: 77%;
+    left: 43%;
+}
+
+.ebus_btn{
+   position: absolute;
+    top: 20%;
+    left: 20%; 
+}

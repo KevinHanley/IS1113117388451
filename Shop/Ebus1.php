@@ -94,8 +94,10 @@
             </label>
       
             <br>
-                
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
+            <div class="add_btn">   
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            </div>  
               
             </form>
               
