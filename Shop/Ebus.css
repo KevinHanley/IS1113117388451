@@ -66,65 +66,65 @@ iframe{
 
 .cloud_reasons{
     position: absolute;
-    left: 40%;
+    left: 33%;
     width: 40%;
     top: 63%;
 }
 
-.cloud_heading{
+.saas_heading{
     position: absolute;
     left: 10%;
     width: 40%;
     top: 70%;
 }
 
-.cloud_body{
+.saas_body{
     position: absolute;
     left: 10%;
     width: 35%;
     top: 75%;
 }
 
-.cloud_heading2{
+.paas_heading{
     position: absolute;
     left: 50%;
     width: 40%;
     top: 70%;
 }
 
-.cloud_body2{
+.paas_body{
     position: absolute;
     left: 50%;
     width: 40%;
     top: 75%;
 }
 
-.cloud_heading3{
+.iaas_heading{
     position: absolute;
     left: 10%;
     width: 40%;
-    top: 95%;
+    top: 115%;
 }
 
-.cloud_body3{
+.iaas_body{
     position: absolute;
     left: 10%;
     width: 35%;
-    top: 100%;
+    top: 120%;
 }
 
-.cloud_heading4{
+.caas_heading{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 95%;
+    top: 115%;
 }
 
-.cloud_body4{
+.caas_body{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 100%;
+    top: 120%;
 }
 
 
