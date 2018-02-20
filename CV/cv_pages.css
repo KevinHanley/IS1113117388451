@@ -83,7 +83,7 @@ p:nth-of-type(1), p:nth-of-type(2){
             /* CV page 2 code */
 .colmans_pic{
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 18%;
 }
 
@@ -96,66 +96,67 @@ p:nth-of-type(1), p:nth-of-type(2){
     width: 40%;
     position: absolute;
     left: 45%;
-    top: 20%;
+    top: 24%;
 }
 
 .years{
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 45%;
 }
 
 .summary_heading{
     position: absolute;
-    top: 40%;
+    top: 44%;
     left: 28%;
 }
 
 .summary_body{
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 45%;
+    width: 40%;
 }
 
 .awards_heading{
     position: absolute;
-    top: 60%;
+    top: 64%;
     left: 28%;
 }
 
 .awards_body{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 45%;
 }
 
 .results_heading{
     position: absolute;
-    top: 80%;
+    top: 84%;
     left: 28%;
 }
 
 .jc_results{
     position: absolute;
-    top: 80%;
+    top: 84%;
     left: 45%;
 }
 
 .lc_results{
     position: absolute;
-    top: 85%;
+    top: 89%;
     left: 68%;
 }
 
 .lc_points{
     position: absolute;
-    top: 117%;
+    top: 121%;
     left: 71%;
 }
 
 .ucc_pic{
     position: absolute;
-    top: 140%;
+    top: 144%;
     left: 18%;
 }
 
@@ -168,19 +169,32 @@ p:nth-of-type(1), p:nth-of-type(2){
     width: 40%;
     position: absolute;
     left: 45%;
-    top: 150%;
+    top: 154%;
 }
 
 .years2{
     position: absolute;
-    top: 160%;
+    top: 164%;
     left: 45%;
 }
 
 .ucc_course{
     position: absolute;
-    top: 170%;
+    top: 174%;
     left: 45%;
+}
+
+.summary_heading2{
+    position: absolute;
+    top: 183%;
+    left: 28%;
+}
+
+.summary_body2{
+    position: absolute;
+    top: 184%;
+    left: 45%;
+    width: 40%;
 }
 
 
@@ -189,7 +203,7 @@ p:nth-of-type(1), p:nth-of-type(2){
             
 .tossbryan_pic{
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 18%;
 }
 
@@ -202,25 +216,25 @@ p:nth-of-type(1), p:nth-of-type(2){
     width: 40%;
     position: absolute;
     left: 45%;
-    top: 20%;
+    top: 24%;
 }
 
 .cv3_years{
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 45%;
 }
 
 .cv3_positioning2{
-    width: 48%;
+    width: 40%;
     position: absolute;
-    top: 40%;
+    top: 44%;
     left: 45%;
 }
 
 .supervalu_pic{
     position: absolute;
-    top: 73%;
+    top: 77%;
     left: 18%;
 }
 
@@ -233,12 +247,12 @@ p:nth-of-type(1), p:nth-of-type(2){
     width: 40%;
     position: absolute;
     left: 45%;
-    top: 80%;
+    top: 84%;
 }
 
 .cv3_years2{
     position: absolute;
-    top: 90%;
+    top: 94%;
     left: 45%;
 }
 
@@ -246,6 +260,6 @@ p:nth-of-type(1), p:nth-of-type(2){
 .cv3_positioning4{
     width: 48%;
     position: absolute;
-    top: 100%;
+    top: 104%;
     left: 45%;
 }

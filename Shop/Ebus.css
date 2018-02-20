@@ -1,3 +1,135 @@
+/* Shop Home code */
+.company_logo{
+    position: absolute;
+    top: 15%;
+    left: 36%;
+}
+
+.company_logo img{
+    height: 150%;
+    width: 150%;
+}
+
+.office_team{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.office_team img{
+    height: 75%;
+    width: 75%;
+}
+
+.company_mission{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+}
+
+.company_history{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 40%;
+}
+
+.company_contact{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 40%;
+}
+
+
+
+
+
+
+
+/* About Cloud code */
+iframe{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    height: 310px;
+}
+
+.cloud_intro{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.cloud_reasons{
+    position: absolute;
+    left: 40%;
+    width: 40%;
+    top: 63%;
+}
+
+.cloud_heading{
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    top: 70%;
+}
+
+.cloud_body{
+    position: absolute;
+    left: 10%;
+    width: 35%;
+    top: 75%;
+}
+
+.cloud_heading2{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 70%;
+}
+
+.cloud_body2{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 75%;
+}
+
+.cloud_heading3{
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    top: 95%;
+}
+
+.cloud_body3{
+    position: absolute;
+    left: 10%;
+    width: 35%;
+    top: 100%;
+}
+
+.cloud_heading4{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 95%;
+}
+
+.cloud_body4{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 100%;
+}
+
+
+
+/* Ebusiness code */
 .ebus_content{
     position: absolute;
     height: 100%;
@@ -77,54 +209,4 @@
 }
 
 
-.cloud_heading{
-    position: absolute;
-    margin-left: 15%;
-    top: 20%;
-}
 
-.cloud_body{
-    position: absolute;
-    width: 70%;
-    margin-left: 15%;
-    top: 25%;
-}
-
-.cloud_heading2{
-    position: absolute;
-    margin-left: 15%;
-    top: 40%;
-}
-
-.cloud_body2{
-    position: absolute;
-    width: 70%;
-    margin-left: 15%;
-    top: 45%;
-}
-
-.cloud_heading3{
-    position: absolute;
-    margin-left: 15%;
-    top: 60%;
-}
-
-.cloud_body3{
-    position: absolute;
-    width: 70%;
-    margin-left: 15%;
-    top: 65%;
-}
-
-.cloud_heading4{
-    position: absolute;
-    margin-left: 15%;
-    top: 80%;
-}
-
-.cloud_body4{
-    position: absolute;
-    width: 70%;
-    margin-left: 15%;
-    top: 85%;
-}
