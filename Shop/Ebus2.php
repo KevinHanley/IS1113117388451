@@ -10,6 +10,8 @@ session_start()
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
     
     <body>
@@ -36,11 +38,13 @@ session_start()
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         
-        <br/>
+        <br>
         <button onClick="validatePin()">Validate</button>
     
         <?php  
         // Set session variables
+          $_SESSION["name"] = $_POST["name"];
+          $_SESSION["email"] = $_POST["email"];
           $_SESSION["total"] = $_POST["total"];
         ?>
         

@@ -14,20 +14,20 @@
     
     <body>
         <header>
-                <div class="container">
-                    
-                    <p class="logo"><strong>Kevin Hanley</strong></p>
-                    
-                    <nav>
-                        <ul>
-                            <li><a href="../homepage.html">Home</a></li>
-                            <li><a href="../CV/cv_page1.html">CV</a></li>
-                            <li><a href="../Interests/sports.html">Interests</a></li>
-                            <li><a href="Shop/shophome.html">Shop</a></li>
-                        </ul>
-                    </nav>
-                    
-                </div>
+            <div class="container">
+                
+                <p class="logo"><strong>Kevin Hanley</strong></p>
+                
+                <nav>
+                    <ul>
+                        <li><a href="../homepage.html">Home</a></li>
+                        <li><a href="../CV/cv_page1.html">CV</a></li>
+                        <li><a href="../Interests/sports.html">Interests</a></li>
+                        <li><a href="Shop/shophome.html">Shop</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
         </header>
         
         <div class="ebus_content">
@@ -69,13 +69,13 @@
             <!-- Breakdown of the price for the selected option -->
             <label for="subtotal" class="label5">
               Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" id="subtotal" value="0.00" readonly/>
+              <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
                 
             <br>
             
             <label for="discount" class="label6">
-              Discount @ 5% &nbsp;&nbsp;&nbsp; <input type="text" id="discount" value="0.00" readonly/>
+              Discount @ 5% &nbsp;&nbsp;&nbsp; <input type="text" id="discount" name="discount" value="0.00" readonly/>
               <br>
               (- Discount)
             </label>
@@ -84,7 +84,7 @@
             
             <label for="vat" class="label7">
               VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" id="vat" value="0.00" readonly/>
+              <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
                 
             <br>
