@@ -83,7 +83,7 @@
             <br>
             
             <label for="vat" class="label7">
-              VAT @ 23% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="vat" value="0.00" readonly/>
             </label>
                 
