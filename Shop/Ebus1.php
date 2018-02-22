@@ -6,6 +6,7 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        
         <link rel="stylesheet" href="../navbar.css" type="text/css"/>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
 
@@ -36,10 +37,12 @@
               
           <form method="POST" action="Ebus2.php">
             
-              <label for="salesforce" class="label1">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
-              </label>
+            
+            <!-- Display radio buttons for cloud service options -->
+            <label for="salesforce" class="label1">
+              <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+              SalesForce @ $100
+            </label>
                 
             <br>
             
@@ -62,10 +65,8 @@
               Gmail @ $400
             </label>
             
-                
-            <button onClick="calcSub()" class="cal_btn">Calculate Cost</button>
             
-                
+            <!-- Breakdown of the price for the selected option -->
             <label for="subtotal" class="label5">
               Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="subtotal" value="0.00" readonly/>
@@ -99,10 +100,15 @@
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
               
-            </form>
-              
-            <br>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
+          </form>
+            
+          <!-- button for calculating price breakdown of the selected option -->    
+          <button onClick="calcSub()">Calculate Cost</button>
+            
+          <br>
+            
+          <!-- button for clearing the selected options -->    
+          <a role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
 </html>

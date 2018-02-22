@@ -129,6 +129,89 @@ iframe{
 
 
 
+/* Products page code */
+.products_heading{
+    position: absolute;
+    top: 15%;
+    left: 45%; 
+}
+
+.salesforce_pic{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.salesforce_pic img{
+    height: 25%;
+    width: 25%;
+}
+
+.gmail_pic{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.gmail_pic img{
+    height: 45%;
+    width: 60%;
+}
+
+.aws_pic{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+}
+
+.aws_pic img{
+    height: 50%;
+    width: 35%;
+}
+
+.cloud9_pic{
+    position: absolute;
+    top: 125%;
+    left: 10%;
+}
+
+.cloud9_pic img{
+    height: 150%;
+    width: 150%;
+}
+
+.salesforce_body{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.aws_body{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+}
+
+.gmail_body{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.cloud9_body{
+    position: absolute;
+    top: 125%;
+    left: 45%;
+}
+
+.ebus_btn{
+    position: absolute;
+    top: 95%;
+    left: 80%; 
+}
+
+
+
 /* Ebusiness code */
 .ebus_content{
     position: absolute;
@@ -200,12 +283,6 @@ iframe{
     position: absolute;
     top: 77%;
     left: 43%;
-}
-
-.ebus_btn{
-   position: absolute;
-    top: 20%;
-    left: 20%; 
 }
 
 
