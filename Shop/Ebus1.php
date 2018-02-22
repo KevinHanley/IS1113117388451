@@ -66,12 +66,13 @@
             </label>
             
             
+            
             <!-- Breakdown of the price for the selected option -->
             <label for="subtotal" class="label5">
               Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
-                
+            
             <br>
             
             <label for="discount" class="label6">
@@ -103,12 +104,12 @@
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
-          <button onClick="calcSub()">Calculate Cost</button>
-            
+          <button class="cal_btn" onClick="calcSub()">Calculate Cost</button>
+             
           <br>
             
           <!-- button for clearing the selected options -->    
-          <a role="button" href="Ebus1.php">Clear Choice</a>
+          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
 </html>
