@@ -1,22 +1,5 @@
 /* global $ */
 
-function validatePin(){
-    
-var pin;
-    
-    pin = document.getElementById("user_pin").value;
-    
-    if (pin == ""){
-        alert("Please enter your PIN.");
-    }
-    else if (pin.length < 4){
-        alert("Your PIN must be 4 digits.");
-    }
-    else{
-        validateName()
-    }
-}
-
 function validateName(){
     
     var name;
@@ -30,7 +13,7 @@ function validateName(){
         alert('Only letters are allowed in a name.');
     }
     else{
-    validateEmail()
+        validateEmail();
     }
 
 }
@@ -48,7 +31,24 @@ function validateEmail(){
         alert("Please enter a valid Email ID");
     }
     else{
-        enablebtnPurchase();
+        validatePin();
+    }
+}
+
+function validatePin(){
+    
+var pin;
+    
+    pin = document.getElementById("user_pin").value;
+    
+    if (pin == ""){
+        alert("Please enter your PIN.");
+    }
+    else if (pin.length < 4){
+        alert("Your PIN must be 4 digits.");
+    }
+    else{
+        enablebtnPurchase()
     }
 }
 

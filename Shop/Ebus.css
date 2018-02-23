@@ -214,6 +214,10 @@ iframe{
 
 
 
+
+
+
+
 /* Ebusiness code page 1 */
 .ebus_content{
     position: absolute;
@@ -281,10 +285,38 @@ iframe{
     left: 43%;
 }
 
+.add_btn_style{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.add_btn_style:hover{
+    cursor: pointer;
+}
+
 .cal_btn{
     position: absolute;
     top: 75%;
     left: 43%;
+    
+    background-color: #ffff00;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 95%;
+}
+
+.cal_btn:hover{
+    cursor: pointer;
 }
 
 .clear_btn{
@@ -294,8 +326,9 @@ iframe{
     
     text-decoration: none;
     color: red;
-    border: solid 5px red;
-    border-radius: 10px;
+    padding: 4px 4px;
+    border: solid 1px red;
+    border-radius: 3px;
 }
 
 
@@ -328,11 +361,37 @@ iframe{
     position: absolute;
     top: 35%;
     left: 43%;
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btn_proceed:hover{
+    cursor: pointer;
 }
 
 .btn_validate{
     position: absolute;
     top: 40%;
     left: 43%;
+    
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btn_validate{
+    cursor: pointer;
 }
 

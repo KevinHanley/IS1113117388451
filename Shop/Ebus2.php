@@ -22,23 +22,26 @@ session_start()
             
             <label for="user_name" class="lbl_name">
                 Name
-                <input type="name" id="user_name" name="user_name" placeholder="Joe Bloggs">
+                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
             </label>
             
             <br>
             
             <label for="user_email" class="lbl_email">
                 Email address
-                <input type="email" id="user_email" name="user_email" placeholder="joebloggs@ucc.ie">
+                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
             </label>
             
             <br>
 
             <label for="user_pin" class="lbl_pin">
                 PIN
-                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4">
+                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <br>
+                (Only numbers are allowed for the PIN)
             </label>
             
+            <br>
             <br>
             
             <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
@@ -46,12 +49,10 @@ session_start()
         
         <br>
         
-        <button class="btn_validate" onClick="validatePin()">Validate</button>
+        <button class="btn_validate" onClick="validateName()">Validate</button>
     
         <?php  
         // Set session variables
-          $_SESSION["name"] = $_POST["name"];
-          $_SESSION["email"] = $_POST["email"];
           $_SESSION["total"] = $_POST["total"];
         ?>
         

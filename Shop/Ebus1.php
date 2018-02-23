@@ -93,12 +93,14 @@
             <label for="total" class="label8">
               Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="total" name="total" value="0.00" readonly/>
+              <br>
+              (- Discount + VAT)
             </label>
       
             <br>
             
             <div class="add_btn">   
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
               
           </form>

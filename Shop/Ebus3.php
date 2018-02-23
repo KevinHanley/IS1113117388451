@@ -10,6 +10,12 @@ session_start()
     <body>
         <h4>Purchase Receipt</h4>
         
+        <?php  
+        // Set session variables
+          $_SESSION["user_name"] = $_POST["user_name"];
+          $_SESSION["user_email"] = $_POST["user_email"];
+        ?>
+        
         <p>
             <?php
             // Echo session variables that were set on the previous pages
@@ -32,3 +38,4 @@ session_start()
         </p>
     </body>
 </html>
+
