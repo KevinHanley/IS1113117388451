@@ -1,0 +1,70 @@
+/* Code for navigation bar */
+body{
+    margin: 0;
+    background-color: #FFF;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: #333;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    top: 25%;
+    border: 1px #000;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    position: absolute;
+    left: 24%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 31px;
+    
+    position: relative;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #000;
+    
+    position: absolute;
+    top: 50px;
+    width: 0%;
+    transition: all ease-in-out 0.25s;
+}
+
+nav a:hover::after{
+    width: 100%;
+}

@@ -1,8 +1,8 @@
 /* Shop Home code */
 .company_logo{
     position: absolute;
-    top: 15%;
-    left: 36%;
+    top: -3%;
+    left: 31%;
 }
 
 .company_logo img{
@@ -10,9 +10,17 @@
     width: 150%;
 }
 
+.shophome_container1{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    background-color: LightGray;
+}
+
 .office_team{
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 10%;
 }
 
@@ -23,25 +31,96 @@
 
 .company_mission{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     width: 40%;
+}
+
+.shophome_container2{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 80%;
+    background-color: #fff;
+    
 }
 
 .company_history{
     position: absolute;
-    top: 65%;
-    left: 50%;
-    width: 40%;
+    top: 25%;
+    left: 10%;
+    width: 36%;
 }
 
-.company_contact{
+.laura{
     position: absolute;
-    top: 80%;
+    top: 5%;
     left: 50%;
-    width: 40%;
 }
 
+.laura img{
+    height: 280px;
+    width: 120%;
+}
+
+.shophome_container3{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 120%;
+    background-color: LightGray;
+    
+}
+
+.company_info{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 36%;
+}
+
+.headquaters{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.headquaters img{
+    height: 280px;
+    width: 60%;
+}
+
+.subscript{
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    height: 10%;
+    background-color: #FFF;
+}
+.subscript p{
+    position: absolute;
+    left: 10%;
+}
+
+#btn_top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#btn_top:hover {
+  background-color: #555;
+}
 
 
 
@@ -49,9 +128,17 @@
 
 
 /* About Cloud code */
+.about_intro{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 35%;
+    background-color: LightGray;
+}
+
 iframe{
     position: absolute;
-    top: 20%;
+    top: 6%;
     left: 10%;
     width: 30%;
     height: 310px;
@@ -61,71 +148,158 @@ iframe{
     width: 40%;
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 20%;
 }
 
 .cloud_reasons{
     position: absolute;
     left: 33%;
     width: 40%;
-    top: 63%;
+    top: 83%;
+}
+
+
+
+.aboutcloud_container1{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 100%;
+    background-color: LightGray;
+}
+
+.saas_image{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.saas_image img{
+    height: 75%;
+    width: 75%;
 }
 
 .saas_heading{
     position: absolute;
     left: 10%;
     width: 40%;
-    top: 70%;
+    top: 0%;
 }
 
 .saas_body{
     position: absolute;
     left: 10%;
     width: 35%;
-    top: 75%;
+    top: 10%;
+}
+
+
+
+.aboutcloud_container2{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 150%;
+    background-color: LightGray;
+}
+
+.paas_image{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+
+.paas_image img{
+    height: 75%;
+    width: 75%;
 }
 
 .paas_heading{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 70%;
+    top: 0%;
 }
 
 .paas_body{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 75%;
+    top: 10%;
+}
+
+
+
+.aboutcloud_container3{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 200%;
+    background-color: LightGray;
+}
+
+.iaas_image{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+}
+
+.iaas_image img{
+    height: 75%;
+    width: 75%;
 }
 
 .iaas_heading{
     position: absolute;
     left: 10%;
     width: 40%;
-    top: 115%;
+    top: 0%;
 }
 
 .iaas_body{
     position: absolute;
     left: 10%;
     width: 35%;
-    top: 120%;
+    top: 10%;
+}
+
+
+
+.aboutcloud_container4{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 250%;
+    background-color: LightGray;
+}
+
+.caas_image{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+
+.caas_image img{
+    height: 75%;
+    width: 75%;
 }
 
 .caas_heading{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 115%;
+    top: 0%;
 }
 
 .caas_body{
     position: absolute;
     left: 50%;
     width: 40%;
-    top: 120%;
+    top: 10%;
 }
+
+
+
 
 
 

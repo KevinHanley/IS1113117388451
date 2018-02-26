@@ -3,56 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <title>Shop Home</title>
-        <link rel="stylesheet" href="../navbar.css" type="text/css"/>
+        
+        <script type="text/javascript" src="shop_effects.js"></script>
+        <link rel="stylesheet" href="shop_navbar.css" type="text/css"/>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
     
     <body>
-        <header>
-                <div class="container">
-                    
-                    <p class="logo"><strong>Kevin Hanley</strong></p>
-                    
-                    <nav>
-                        <ul>
-                            <li><a href="../homepage.html">Home</a></li>
-                            <li><a href="../CV/cv_page1.html">CV</a></li>
-                            <li><a href="../Interests/sports.html">Interests</a></li>
-                            <li><a href="Shop/shophome.html">Shop</a></li>
-                        </ul>
-                    </nav>
-                    
-                </div>
-        </header>
         
-        <section class="subnav_body">
-            <div class="subnav">
-                <ul>
-                    <li><a href="shophome.html">Shop Home</a></li>
-                    <li><a href="about_cloud.html">About Cloud</a></li>
-                    <li><a href="products.html">Products</a></li>
-                </ul>
-            </div>
-        </section>
-            
         <div class="company_logo">
             <img src="../Images/company_logo.png">
         </div>
         
-        <div class="office_team">
-            <img src="../Images/office_team.png">
+        <header>
+            <div class="container">
+                
+                <nav>
+                    <ul>
+                        <li><a href="../homepage.html">Personal Website</a></li>
+                        <li><a href="shophome.html">Shop Home</a></li>
+                        <li><a href="about_cloud.html">About Cloud</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
+        
+        <button onclick="GoToTop()" id="btn_top" title="Go to top">Top</button>
+        
+        <div class="shophome_container1">
+            <div class="office_team">
+                <img src="../Images/office_team.png">
+            </div>
+            
+            <section>
+                <p class="company_mission">Here at Weightless Ltd. it is our passion to deliver the very best in personal and business cloud services to our customers. Our goal 
+                is simple: deliver reliable and secure storage to all our customers. This allows them more time to pursue the causes that interest them, whilst removing 
+                the stress, confusion and (most importantly) space associated with physical storage that has palgued businesses for decades.</p>
+            </section> 
         </div>
         
-        <section>
-            <p class="company_mission">Here at Weightless Ltd. it is our passion to deliver the very best in personal and business cloud services to our customers. Our goal 
-            is simple: deliver reliable and secure storage to all our customers. This allows them more time to pursue the causes that interest them, whilst removing 
-            the stress, confusion and (most importantly) space associated with physical storage that has palgued businesses for decades.</p>
+        
+        <div class="shophome_container2">
+            <div class="laura">
+                <img src="../Images/laura.png">
+            </div>
             
-            <p class="company_history">For over 10 years, Weightless Ltd. has provided consumers with easy and reliable access to cloud networks and expert customer services. 
-            Founded in 2006, just after the Amazon's revolutionary launch of the Elastic Compute cloud (EC2), we've grown from strength-to-strength and now become a global 
-            leader in all there is to offer on cloud computing.</p>
+            <section>
+                <p class="company_history">For over 10 years, Weightless Ltd. has provided consumers with easy and reliable access to cloud networks and expert customer services. 
+                Founded in 2006, just after the Amazon's revolutionary launch of the Elastic Compute cloud (EC2), we've grown from strength-to-strength and now become a global 
+                leader in all there is to offer on cloud computing.</p>
+            </section>
+        </div>
+        
+        <div class="shophome_container3">
+            <div class="headquaters">
+                <img src="../Images/headquaters.png">
+            </div>
             
-            <p class="company_contact">Contact Us</p>
-        </section>
+            <section>
+                <p class="company_info">For over 10 years, Weightless Ltd. has provided consumers with easy and reliable access to cloud networks and expert customer services. 
+                Founded in 2006, just after the Amazon's revolutionary launch of the Elastic Compute cloud (EC2), we've grown from strength-to-strength and now become a global 
+                leader in all there is to offer on cloud computing.</p>
+            </section>
+        </div>
+        
+        <footer class="subscript">
+            <p>
+                <small>&copy; Copyright 2006-2018 Weightless Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
+                <br>
+                <small>Weightless.com EMEA Limited, 29 Fake Street, Fermoy, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
+            </p>
+        </footer>
+        
     </body>
 </html>

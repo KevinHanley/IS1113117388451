@@ -37,7 +37,6 @@
               
           <form method="POST" action="Ebus2.php">
             
-            
             <!-- Display radio buttons for cloud service options -->
             <label for="salesforce" class="label1">
               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
