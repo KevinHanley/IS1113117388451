@@ -1,4 +1,4 @@
- /* all pages */
+ /* styling that effects all Interests pages */
 .interests_button1{
     position: fixed;
     bottom: 20px;
@@ -49,7 +49,7 @@
 
 
 
-/* Sports page */
+        /* Sports page styling */
 .munster_fans_pic{
     position: absolute;
     top: 28%;
@@ -147,7 +147,7 @@
 
 
 
-/* Travel page */
+        /* Travel page styling */
 #section1{
     background-color: rgb(238, 0, 90);
 }
@@ -187,7 +187,7 @@
 }
 
 
-/* Section 1 */
+        /* Section 1 styling*/
 .tenerife_pic{
     position: absolute;
     top: 15%;
@@ -227,7 +227,7 @@
     top: 55%;
 }
 
-/* Section 2 */
+        /* Section 2 styling*/
 .operahouse_pic{
     position: absolute;
     top: 15%;
@@ -246,7 +246,7 @@
     border-radius: 10%;
 }
 
-/* Section 3 */
+        /* Section 3 styling*/
 .skellig_pic{
     position: absolute;
     top: 15%;
@@ -271,7 +271,7 @@
 
 
 
-/* Cloud Services page */
+        /* Cloud Services page styling */
 .cloud_intro{
     font-size: 350%;
     position: absolute;

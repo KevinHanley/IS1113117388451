@@ -1,3 +1,4 @@
+// When the user scrolls down the page then the button will appear
 window.onscroll = function() {scroll()};
 
 function scroll() {

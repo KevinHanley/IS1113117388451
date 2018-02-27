@@ -1,4 +1,4 @@
-/* Shop Home code */
+        /* Shop Homepage styling */
 .company_logo{
     position: absolute;
     top: -3%;
@@ -90,14 +90,15 @@
     width: 60%;
 }
 
-.subscript{
+.shop1_copyright{
     position: absolute;
     top: 160%;
     width: 100%;
     height: 10%;
     background-color: #FFF;
 }
-.subscript p{
+
+.shop1_copyright p{
     position: absolute;
     left: 10%;
 }
@@ -127,7 +128,7 @@
 
 
 
-/* About Cloud code */
+        /* About Cloud page styling */
 .about_intro{
     width: 100%;
     height: 45%;
@@ -157,8 +158,6 @@ iframe{
     width: 40%;
     top: 83%;
 }
-
-
 
 .aboutcloud_container1{
     width: 100%;
@@ -193,8 +192,6 @@ iframe{
     top: 10%;
 }
 
-
-
 .aboutcloud_container2{
     width: 100%;
     height: 40%;
@@ -227,8 +224,6 @@ iframe{
     width: 40%;
     top: 10%;
 }
-
-
 
 .aboutcloud_container3{
     width: 100%;
@@ -263,8 +258,6 @@ iframe{
     top: 10%;
 }
 
-
-
 .aboutcloud_container4{
     width: 100%;
     height: 40%;
@@ -298,21 +291,34 @@ iframe{
     top: 10%;
 }
 
+.shop2_copyright{
+    position: absolute;
+    top: 310%;
+    width: 100%;
+    height: 10%;
+    background-color: #FFF;
+}
+
+.shop2_copyright p{
+    position: absolute;
+    left: 10%;
+}
 
 
 
 
 
-/* Products page code */
+
+        /* Products page styling */
 .products_heading{
     position: absolute;
-    top: 15%;
-    left: 45%; 
+    top: 32%;
+    left: 45%;
 }
 
 .salesforce_pic{
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 10%;
 }
 
@@ -321,31 +327,16 @@ iframe{
     width: 25%;
 }
 
-.gmail_pic{
+.salesforce_body{
     position: absolute;
-    top: 60%;
-    left: 10%;
-}
-
-.gmail_pic img{
-    height: 45%;
-    width: 60%;
-}
-
-.aws_pic{
-    position: absolute;
-    top: 105%;
-    left: 10%;
-}
-
-.aws_pic img{
-    height: 50%;
-    width: 35%;
+    top: 40%;
+    left: 45%;
+    width: 45%;
 }
 
 .cloud9_pic{
     position: absolute;
-    top: 125%;
+    top: 70%;
     left: 10%;
 }
 
@@ -354,45 +345,87 @@ iframe{
     width: 150%;
 }
 
-.salesforce_body{
+.cloud9_body{
     position: absolute;
-    top: 25%;
+    top: 74%;
     left: 45%;
+    width: 45%;
+}
+
+.aws_pic{
+    position: absolute;
+    top: 115%;
+    left: 10%;
+}
+
+.aws_pic img{
+    height: 50%;
+    width: 35%;
 }
 
 .aws_body{
     position: absolute;
-    top: 105%;
+    top: 115%;
     left: 45%;
+    width: 45%;
+}
+
+.gmail_pic{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+}
+
+.gmail_pic img{
+    height: 45%;
+    width: 60%;
 }
 
 .gmail_body{
     position: absolute;
-    top: 60%;
+    top: 150%;
     left: 45%;
-}
-
-.cloud9_body{
-    position: absolute;
-    top: 125%;
-    left: 45%;
+    width: 45%;
 }
 
 .ebus_btn{
     position: absolute;
-    top: 95%;
-    left: 80%; 
+    top: 190%;
+    left: 50%; 
+
+    z-index: 98;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.ebus_btn:hover{
+    background-color: #555;
+}
+
+.shop3_copyright{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 10%;
+    background-color: #FFF;
+}
+
+.shop3_copyright p{
+    position: absolute;
+    left: 10%;
 }
 
 
 
 
-
-
-
-
-
-/* Ebusiness code page 1 */
+        /* E-business page 1 styling */
 .ebus_content{
     position: absolute;
     height: 100%;
@@ -506,7 +539,8 @@ iframe{
 }
 
 
-/* Ebusiness code page 2 */
+
+        /* E-business page 2 styling */
 .ebus2_heading{
     position: absolute;
     top: 10%;
@@ -567,5 +601,30 @@ iframe{
 
 .btn_validate{
     cursor: pointer;
+}
+
+        /* E-business page 3 styling */
+        
+.ebus3_heading{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.ebus3_name{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.ebus3_email{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.ebus3_total{
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
 

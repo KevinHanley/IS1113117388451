@@ -1,4 +1,4 @@
-            /* all CV pages */
+            /* styling that effects all CV pages */
 .btn_positions{
     position: fixed;
     top: 95%;
@@ -12,7 +12,7 @@ body,html{
 
 
 
-            /* Cv page 1 code */
+            /* Cv page 1 styling */
 .personal_heading{
     position: absolute;
     top: 53%;
@@ -96,7 +96,7 @@ p:nth-of-type(1), p:nth-of-type(2){
 
 
 
-            /* CV page 2 code */
+            /* CV page 2 styling */
 .colmans_pic{
     position: absolute;
     top: 20%;
@@ -230,7 +230,7 @@ p:nth-of-type(1), p:nth-of-type(2){
 
 
 
-            /* CV page 3 code */
+            /* CV page 3 styling */
             
 .tossbryan_pic{
     position: absolute;
