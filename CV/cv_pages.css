@@ -34,7 +34,7 @@ body,html{
 
 .self_pic {
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 18%;
 }
 
@@ -99,7 +99,7 @@ p:nth-of-type(1), p:nth-of-type(2){
             /* CV page 2 styling */
 .colmans_pic{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 18%;
 }
 
@@ -109,64 +109,64 @@ p:nth-of-type(1), p:nth-of-type(2){
 }
 
 .cv2_school{
-    width: 40%;
+    width: 42%;
     position: absolute;
     left: 45%;
-    top: 24%;
+    top: 28%;
 }
 
 .years{
     position: absolute;
-    top: 34%;
+    top: 36%;
     left: 45%;
 }
 
 .summary_heading{
     position: absolute;
-    top: 44%;
+    top: 46%;
     left: 28%;
 }
 
 .summary_body{
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 45%;
     width: 40%;
 }
 
 .awards_heading{
     position: absolute;
-    top: 64%;
+    top: 66%;
     left: 28%;
 }
 
 .awards_body{
     position: absolute;
-    top: 65%;
+    top: 67%;
     left: 45%;
 }
 
 .results_heading{
     position: absolute;
-    top: 84%;
+    top: 86%;
     left: 28%;
 }
 
 .jc_results{
     position: absolute;
-    top: 84%;
+    top: 86%;
     left: 45%;
 }
 
 .lc_results{
     position: absolute;
-    top: 89%;
+    top: 91%;
     left: 68%;
 }
 
 .lc_points{
     position: absolute;
-    top: 121%;
+    top: 123%;
     left: 71%;
 }
 
@@ -234,7 +234,7 @@ p:nth-of-type(1), p:nth-of-type(2){
             
 .tossbryan_pic{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 18%;
 }
 
