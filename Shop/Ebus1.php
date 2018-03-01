@@ -10,7 +10,6 @@
         <script type="text/javascript" src="cost_calc.js"></script>
 
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
-    </head>
     
     <body>
         <header>

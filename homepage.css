@@ -1,15 +1,19 @@
-/* styling for homepage */
-.homemessage{
+        /* styling for homepage */
+.content{
     position: absolute;
-    top: 42%;
-    left: 24%;
-    font-size: 300%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-#welcome{
+.homemessage{
     position: absolute;
-    top:25%;
-    left: 38%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 300%;
 }
 
 #welcome h1{
@@ -37,24 +41,22 @@
    border: solid red 3px;
 }
 
-.content{
-   max-width: 500px;
-   margin: 0 auto;
-   text-align: center;
-}
-
 .website_link{
     position: absolute;
-    top: 60%;
-    left: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     text-decoration: none;
     color: #000;
 }
 
 .commits_link{
     position: absolute;
-    top: 66%;
-    left: 43%;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     text-decoration: none;
     color: #000;
 }
@@ -73,6 +75,9 @@
 
 .website_link:hover::after{
     width: 100%;
+    animation-name: colours;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .commits_link::after{
@@ -89,6 +94,17 @@
 
 .commits_link:hover::after{
     width: 100%;
+    animation-name: colours;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colours{
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
 }
 
 .block_animation1{
@@ -112,7 +128,8 @@
     100% {background-color:red; left:20%; top:30%;}
 }
 
-.block_animation2{
+
+.block_animation1{
     width: 50px;
     height: 50px;
     background-color: red;

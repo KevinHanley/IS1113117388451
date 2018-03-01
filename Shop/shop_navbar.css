@@ -1,7 +1,9 @@
-        /* Code for the navigation bar in the shop section */
+/* Code for navigation bar */
 body{
     margin: 0;
+    padding: 0;
     background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -9,13 +11,18 @@ body{
     margin: 0 auto;
 }
 
+.logo{
+    float: left;
+    height: 14%;
+    width: 14%;
+}
+
 header{
-    background: #333;
-    position: absolute;
+    background: #FFF;
+    position: fixed;
     width: 100%;
     z-index: 5;
-    top: 25%;
-    border: 1px #000;
+    height: 10%;
 }
 
 header::after{
@@ -25,8 +32,7 @@ header::after{
 }
 
 nav{
-    position: absolute;
-    left: 24%;
+    float: right;
 }
 
 nav ul{
@@ -38,33 +44,34 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left: 70px;
-    padding-top: 31px;
+    padding-top: 5%;
     
     position: relative;
 }
 
 nav a{
-    color: #000;
+    color: #333;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 nav a:hover{
-    color: #000;
+    color: #333;
 }
 
 nav a::after{
     content: '';
     display: block;
     height: 5px;
-    background-color: #000;
+    background-color: #333;
     
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 6%;
     width: 0%;
     transition: all ease-in-out 0.25s;
 }
 
 nav a:hover::after{
     width: 100%;
+    top: 6%;
 }

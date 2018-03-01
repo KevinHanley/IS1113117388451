@@ -1,108 +1,4 @@
-        /* Shop Homepage styling */
-.company_logo{
-    position: absolute;
-    top: -3%;
-    left: 31%;
-}
-
-.company_logo img{
-    height: 150%;
-    width: 150%;
-}
-
-.shophome_container1{
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 35%;
-    background-color: LightGray;
-}
-
-.office_team{
-    position: absolute;
-    top: 5%;
-    left: 10%;
-}
-
-.office_team img{
-    height: 75%;
-    width: 75%;
-}
-
-.company_mission{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    width: 40%;
-}
-
-.shophome_container2{
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 80%;
-    background-color: #fff;
-    
-}
-
-.company_history{
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    width: 36%;
-}
-
-.laura{
-    position: absolute;
-    top: 5%;
-    left: 50%;
-}
-
-.laura img{
-    height: 280px;
-    width: 120%;
-}
-
-.shophome_container3{
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 120%;
-    background-color: LightGray;
-    
-}
-
-.company_info{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    width: 36%;
-}
-
-.headquaters{
-    position: absolute;
-    top: 5%;
-    left: 10%;
-}
-
-.headquaters img{
-    height: 280px;
-    width: 60%;
-}
-
-.shop1_copyright{
-    position: absolute;
-    top: 160%;
-    width: 100%;
-    height: 10%;
-    background-color: #FFF;
-}
-
-.shop1_copyright p{
-    position: absolute;
-    left: 10%;
-}
-
+        /* All Shop pages styling */
 #btn_top {
   display: none;
   position: fixed;
@@ -112,8 +8,8 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: blue;
-  color: white;
+  background-color: #333;
+  color: #FFF;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -124,176 +20,241 @@
 }
 
 
+        
+        /* Shop Homepage styling */
+.shophome_container1{
+    width: 100%;
+    height: 90%;
+    position: fixed;
+    top: 10%;
+    background-image: url("../Images/office_notepad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shophome_message{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width: 20%;
+    color: #000;
+    font-size: 400%;
+}
+
+.shophome_container2{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 100%;
+    background-image: url("../Images/city_skyline.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.company_guarantee{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 35%;
+    color: #FFF;
+    font-size: 400%;
+}
+
+.shophome_container3{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 180%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
+}
+
+.shophome_container4{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 220%;
+    background-image: url("../Images/man_board.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shophome_container5{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 300%;
+    background-color: rgb(25, 148, 230);
+    color: #FFF;
+}
+
+.shophome_container6{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 340%;
+    background-image: url("../Images/beach_sunset.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shophome_container7{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 420%;
+    background-color: rgb(236, 121, 198);
+    color: #FFF;
+}
+
+.company_info1{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 36%;
+    font-size: 400%;
+}
+
+.company_info2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 36%;
+}
+
+.company_info3{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 36%;
+    font-size: 400%;
+}
+
+.products_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #FFF;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.products_btn:hover{
+    background-color: #555;
+}
+
+.shop1_copyright{
+    position: absolute;
+    top: 460%;
+    width: 100%;
+    height: 10%;
+    background-color: LightGray;
+}
+
+.shop1_copyright p{
+    position: absolute;
+    left: 10%;
+}
+
+
 
 
 
 
         /* About Cloud page styling */
-.about_intro{
-    width: 100%;
-    height: 45%;
-    position: absolute;
-    top: 35%;
-    background-color: LightGray;
-}
-
-iframe{
-    position: absolute;
-    top: 6%;
-    left: 10%;
-    width: 30%;
-    height: 310px;
-}
-
-.cloud_intro{
-    width: 40%;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-}
-
-.cloud_reasons{
-    position: absolute;
-    left: 33%;
-    width: 40%;
-    top: 83%;
-}
-
 .aboutcloud_container1{
     width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 100%;
-    background-color: LightGray;
-}
-
-.saas_image{
-    position: absolute;
-    top: 0%;
-    left: 50%;
-}
-
-.saas_image img{
-    height: 75%;
-    width: 75%;
-}
-
-.saas_heading{
-    position: absolute;
-    left: 10%;
-    width: 40%;
-    top: 0%;
-}
-
-.saas_body{
-    position: absolute;
-    left: 10%;
-    width: 35%;
+    height: 90%;
+    position: fixed;
     top: 10%;
+    background-image: url("../Images/cloud_held.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.aboutcloud_message{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 400%;
 }
 
 .aboutcloud_container2{
     width: 100%;
     height: 40%;
     position: absolute;
-    top: 150%;
-    background-color: LightGray;
+    top: 100%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
 }
 
-.paas_image{
+iframe{
     position: absolute;
-    top: 3%;
-    left: 10%;
-}
-
-.paas_image img{
-    height: 75%;
-    width: 75%;
-}
-
-.paas_heading{
-    position: absolute;
-    left: 50%;
-    width: 40%;
-    top: 0%;
-}
-
-.paas_body{
-    position: absolute;
-    left: 50%;
-    width: 40%;
     top: 10%;
+    left: 15%;
+    width: 30%;
+    height: 80%;
 }
 
 .aboutcloud_container3{
     width: 100%;
     height: 40%;
     position: absolute;
-    top: 200%;
+    top: 140%;
     background-color: LightGray;
-}
-
-.iaas_image{
-    position: absolute;
-    top: 3%;
-    left: 50%;
-}
-
-.iaas_image img{
-    height: 75%;
-    width: 75%;
-}
-
-.iaas_heading{
-    position: absolute;
-    left: 10%;
-    width: 40%;
-    top: 0%;
-}
-
-.iaas_body{
-    position: absolute;
-    left: 10%;
-    width: 35%;
-    top: 10%;
+    color: #FFF;
 }
 
 .aboutcloud_container4{
     width: 100%;
-    height: 40%;
+    height: 80%;
     position: absolute;
-    top: 250%;
+    top: 180%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
+}
+
+.aboutcloud_container5{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 260%;
     background-color: LightGray;
+    color: #FFF;
 }
 
-.caas_image{
+.aboutcloud_container6{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 3%;
-    left: 10%;
+    top: 340%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
 }
 
-.caas_image img{
-    height: 75%;
-    width: 75%;
-}
-
-.caas_heading{
+.aboutcloud_container7{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    left: 50%;
-    width: 40%;
-    top: 0%;
-}
-
-.caas_body{
-    position: absolute;
-    left: 50%;
-    width: 40%;
-    top: 10%;
+    top: 420%;
+    background-color: LightGray;
+    color: #FFF;
 }
 
 .shop2_copyright{
     position: absolute;
-    top: 310%;
+    top: 500%;
     width: 100%;
     height: 10%;
     background-color: #FFF;
@@ -310,64 +271,68 @@ iframe{
 
 
         /* Products page styling */
-.products_heading{
+.products_container1{
+    width: 100%;
+    height: 90%;
+    position: fixed;
+    top: 10%;
+    background-image: url("../Images/glass_window.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}        
+
+.products_message{
     position: absolute;
-    top: 32%;
-    left: 45%;
+    top: 10%;
+    left: 70%;
+    width: 20%;
+    font-size: 400%;
+    color: #FFF;
 }
 
-.salesforce_pic{
+.products_name{
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 25%;
+    left: 15%;
+    width: 36%;
+    font-size: 400%;
 }
 
-.salesforce_pic img{
-    height: 25%;
-    width: 25%;
-}
-
-.salesforce_body{
+.products_container2{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 40%;
-    left: 45%;
-    width: 45%;
+    top: 100%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
 }
 
-.cloud9_pic{
+.products_container3{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 180%;
+    background-color: LightGray;
+    color: #FFF;
 }
 
-.cloud9_pic img{
-    height: 150%;
-    width: 150%;
-}
-
-.cloud9_body{
+.products_container4{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 74%;
-    left: 45%;
-    width: 45%;
+    top: 260%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
 }
 
-.aws_pic{
+.products_container5{
+    width: 100%;
+    height: 80%;
     position: absolute;
-    top: 115%;
-    left: 10%;
-}
-
-.aws_pic img{
-    height: 50%;
-    width: 35%;
-}
-
-.aws_body{
-    position: absolute;
-    top: 115%;
-    left: 45%;
-    width: 45%;
+    top: 340%;
+    background-color: LightGray;
+    color: #FFF;
 }
 
 .gmail_pic{
@@ -411,7 +376,7 @@ iframe{
 
 .shop3_copyright{
     position: absolute;
-    top: 200%;
+    top: 420%;
     width: 100%;
     height: 10%;
     background-color: #FFF;

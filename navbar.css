@@ -1,7 +1,9 @@
 /* Code for navigation bar */
 body{
     margin: 0;
+    padding: 0;
     background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
