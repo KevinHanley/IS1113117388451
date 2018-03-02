@@ -41,6 +41,14 @@
     font-size: 400%;
 }
 
+.shophome_container1 i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
 .shophome_container2{
     width: 100%;
     height: 80%;
@@ -49,7 +57,7 @@
     background-image: url("../Images/city_skyline.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    background-position: center center;
 }
 
 .company_guarantee{
@@ -79,6 +87,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.company_guarantee2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 30%;
+    color: #000;
+    font-size: 400%;
 }
 
 .shophome_container5{
@@ -145,6 +162,7 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .products_btn:hover{
@@ -179,6 +197,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.aboutcloud_container1 i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
 }
 
 .aboutcloud_message{
@@ -284,19 +310,20 @@ iframe{
 
 .products_message{
     position: absolute;
-    top: 10%;
-    left: 70%;
-    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 400%;
     color: #FFF;
 }
 
-.products_name{
+.products_container1 i{
     position: absolute;
-    top: 25%;
-    left: 15%;
-    width: 36%;
-    font-size: 400%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #FFF;
 }
 
 .products_container2{
@@ -308,6 +335,30 @@ iframe{
     color: #FFF;
 }
 
+.products_container2 img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.products_name1{
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    width: 30%;
+    font-size: 400%;
+}
+
+.company_info4{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 30%;
+}
+
 .products_container3{
     width: 100%;
     height: 80%;
@@ -315,6 +366,30 @@ iframe{
     top: 180%;
     background-color: LightGray;
     color: #FFF;
+}
+
+.products_container3 img{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.products_name2{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 30%;
+    font-size: 400%;
+}
+
+.company_info5{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
 }
 
 .products_container4{
@@ -326,6 +401,15 @@ iframe{
     color: #FFF;
 }
 
+.products_container4 img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    background-color: #FFF;
+}
+
 .products_container5{
     width: 100%;
     height: 80%;
@@ -335,28 +419,43 @@ iframe{
     color: #FFF;
 }
 
-.gmail_pic{
+.products_container5 img{
     position: absolute;
-    top: 150%;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.products_container6{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 420%;
+    background-color: rgb(204, 51, 51);
+    color: #FFF;
+}
+
+.products_finaltitle{
+    position: absolute;
+    top: 0%;
     left: 10%;
+    width: 80%;
+    font-size: 400%;
 }
 
-.gmail_pic img{
-    height: 45%;
-    width: 60%;
-}
-
-.gmail_body{
+.company_info6{
     position: absolute;
-    top: 150%;
-    left: 45%;
-    width: 45%;
+    top: 50%;
+    left: 10%;
+    width: 30%;
 }
 
 .ebus_btn{
     position: absolute;
-    top: 190%;
-    left: 50%; 
+    top: 10%;
+    left: 100%; 
 
     z-index: 98;
     font-size: 18px;
@@ -376,7 +475,7 @@ iframe{
 
 .shop3_copyright{
     position: absolute;
-    top: 420%;
+    top: 460%;
     width: 100%;
     height: 10%;
     background-color: #FFF;

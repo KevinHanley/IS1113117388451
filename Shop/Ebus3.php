@@ -10,6 +10,12 @@ session_start()
         <title>Receipt</title>
         
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        
+        <!-- Setting the webpage font -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        
+        <!-- setting webpage favicon -->
+        <link rel="shortcut icon" type="image/ico" href="Images/favicon.ico">
     </head>
     
     <body>

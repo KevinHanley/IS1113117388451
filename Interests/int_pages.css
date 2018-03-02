@@ -86,14 +86,14 @@
 .sport_heading2{
     position: absolute;
     left: 45%;
-    top: 70%;
+    top: 75%;
 }
 
 .af_body{
     position: absolute;
     width: 40%;
     left: 45%;
-    top: 77%;
+    top: 82%;
     font-weight: normal;
 }
 
@@ -109,15 +109,30 @@
 .sport_heading3{
     position: absolute;
     left: 45%;
-    top: 120%;
+    top: 125%;
 }
 
 .golf_body{
     position: absolute;
     width: 40%;
     left: 45%;
-    top: 127%;
+    top: 132%;
     font-weight: normal; 
+}
+
+.interests_copyright1{
+    position: absolute;
+    top: 170%;
+    width: 100%;
+    height: 10%;
+    background-color: #333;
+}
+
+.interests_copyright1 p{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #FFF;
 }
 
 
@@ -241,6 +256,21 @@
     border-radius: 10%;
 }
 
+.interests_copyright2{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    background-color: #333;
+}
+
+.interests_copyright2 p{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #FFF;
+}
+
 
 
 
@@ -303,3 +333,19 @@
     left: 51%;
     top: 20%;
 }
+
+.interests_copyright3{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    background-color: #333;
+}
+
+.interests_copyright3 p{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #FFF;
+}
+

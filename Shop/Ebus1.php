@@ -10,7 +10,12 @@
         <script type="text/javascript" src="cost_calc.js"></script>
 
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
-    
+        
+        <!-- Setting the webpage font -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        
+        <!-- setting webpage favicon -->
+        <link rel="shortcut icon" type="image/ico" href="Images/favicon.ico">
     <body>
         <header>
             <div class="container">
