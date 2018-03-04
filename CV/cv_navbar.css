@@ -4,12 +4,6 @@ body{
     background-color: #FFF;
 }
 
-.nav_container{
-    width: 80%;
-    margin: 0 auto;
-    height: 78px;
-}
-
 header{
     background: #333;
     position: fixed;
@@ -21,6 +15,12 @@ header::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.nav_container{
+    width: 80%;
+    margin: 0 auto;
+    height: 78px;
 }
 
 .nav_logo{
@@ -84,9 +84,7 @@ nav a:hover::after{
     background: #474747;
     position: absolute;
     width: 100%;
-    height: 50px;
     top: 79px;
-    z-index: 4;
 }
 
 .subnav_body::after{
@@ -95,10 +93,14 @@ nav a:hover::after{
     clear: both;
 }
 
+.subnav_body2{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+}
+
 .subnav{
     float: right;
-    width: 35%;
-    margin: 0 auto;
 }
 
 .subnav ul{

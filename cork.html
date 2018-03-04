@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            var aboutEl = $('div.about'),
+            aboutElOffset = aboutEl.offset().top/2,
+            documentEl = $(document);
+            
+            documentEl.on('scroll', function() {
+                if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden') ) aboutEl.removeClass('hidden');
+                
+            });
+        })();
+    </script>
+    
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .content{
+            height: 600px;
+            background-color: #e0e0e0;
+        }
+        
+        .about h2, .about p{
+            transition: all 0.8s ease;
+        }
+        
+        .about.hidden h2{
+            opacity: 0;
+            transform: translate3d(0, 0, 400px) rotateY(-40deg);
+        }
+        
+        .about.hidden p{
+            opacity: 0;
+            transform: translate3d(0, 0, 400px) rotateY(40deg);
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="content"></div>
+
+<div class="about hidden">
+    <h2>hello world</h2>
+    <p>Lorem Ipsum</p>
+</div>
+
+<div class="content"></div>
+</body>
+</html>

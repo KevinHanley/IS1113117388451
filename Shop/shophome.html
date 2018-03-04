@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Shop Home</title>
+        <title>Weightless - Home</title>
         
         <script type="text/javascript" src="shop_effects.js"></script>
         <link rel="stylesheet" href="shop_navbar.css" type="text/css"/>
@@ -18,6 +18,26 @@
         
         <!-- Google icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            var aboutEl = $('div.shophome_container2'),
+            aboutElOffset = aboutEl.offset().top/2,
+            aboutElsecond = $('div.shophome_container4'),
+            aboutElOffsetsecond = aboutElsecond.offset().top/1.2,
+            aboutElthird = $('div.shophome_container6'),
+            aboutElOffsetthird = aboutElthird.offset().top/1.1,
+            documentEl = $(document);
+            
+            documentEl.on('scroll', function() {
+                if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden') ) aboutEl.removeClass('hidden');
+                if ( documentEl.scrollTop() > aboutElOffsetsecond && aboutElsecond.hasClass('hidden2') ) aboutElsecond.removeClass('hidden2');
+                if ( documentEl.scrollTop() > aboutElOffsetthird && aboutElthird.hasClass('hidden3') ) aboutElthird.removeClass('hidden3');
+            });
+        })();
+    </script>
     </head>
     
     <body>
@@ -57,7 +77,7 @@
             <i class="material-icons">arrow_downward</i>
         </div>
 
-        <div class="shophome_container2">
+        <div class="shophome_container2 hidden">
             <h1 class="company_guarantee">
                 No matter the challenge, we'll be there every step of the way.
             </h1>
@@ -73,7 +93,7 @@
             </p>
         </div>
         
-        <div class="shophome_container4">
+        <div class="shophome_container4 hidden2">
             <h1 class="company_guarantee2">
                 We offer smart solutions to complex problems
             </h1>
@@ -89,7 +109,7 @@
             </p>
         </div>
         
-        <div class="shophome_container6">
+        <div class="shophome_container6 hidden3">
             <h1 class="company_guarantee">
                 From our country to yours, our professional team are here 24/7 to help
             </h1>

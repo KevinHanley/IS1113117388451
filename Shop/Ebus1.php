@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
         <title>Select Product</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+        
+        <!--Stylesheets -->
+        <link rel="stylesheet" href="shop_navbar.css" type="text/css"/>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         
         <!-- Setting the webpage font -->
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         
-        <!-- setting webpage favicon -->
+        <!-- Setting webpage favicon -->
         <link rel="shortcut icon" type="image/ico" href="Images/favicon.ico">
+        
+        <!-- Google icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <body>
+        <!-- Adding navigation bar to the page -->
         <header>
             <div class="container">
                 
-                <p class="logo"><strong>Kevin Hanley</strong></p>
+                <img class="logo" src="../Images/company_logo_trans.png">
                 
                 <nav>
                     <ul>
-                        <li><a href="../homepage.html">Home</a></li>
-                        <li><a href="../CV/cv_page1.html">CV</a></li>
-                        <li><a href="../Interests/sports.html">Interests</a></li>
-                        <li><a href="Shop/shophome.html">Shop</a></li>
+                        <li><a href="shophome.html">Shop Home</a></li>
+                        <li><a href="about_cloud.html">About Cloud</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="../homepage.html">Personal Website</a></li>
                     </ul>
                 </nav>
                 
             </div>
         </header>
-        
+
         <div class="ebus_content">
+          <div class="changing_pic">
+            <img id="pic_test" src="../Images/salesforce_logo.png">
+          </div>
+          
           <h1>Select a Product</h1>
               
           <br>
@@ -43,28 +54,28 @@
             
             <!-- Display radio buttons for cloud service options -->
             <label for="salesforce" class="label1">
-              <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+              <input type="radio" id="salesforce" name="product" checked onClick="rbChecked()"/>
               SalesForce @ $100
             </label>
                 
             <br>
             
             <label for="cloud9" class="label2">
-              <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+              <input type="radio" id="cloud9" name="product" onClick="rbChecked()"/>
                Cloud9 @ $200
             </label>
                 
             <br>
                 
             <label for="aws" class="label3">
-              <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+              <input type="radio" id="aws" name="product" onClick="rbChecked()"/>
               AWS @ $300
             </label>
                 
             <br>
                 
             <label for="gmail" class="label4">
-              <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+              <input type="radio" id="gmail" name="product" onClick="rbChecked()"/>
               Gmail @ $400
             </label>
             
@@ -103,7 +114,7 @@
             <br>
             
             <div class="add_btn">   
-              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart <i class="material-icons">add_shopping_cart</i></button>
             </div>  
               
           </form>
@@ -114,7 +125,7 @@
           <br>
             
           <!-- button for clearing the selected options -->    
-          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
+          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice <i class="material-icons">delete</i></a>
         </div>
     </body>
 </html>

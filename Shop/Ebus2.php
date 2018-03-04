@@ -5,6 +5,7 @@ session_start()
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Enter Details</title>
@@ -13,6 +14,8 @@ session_start()
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
+        <!--Stylesheets -->
+        <link rel="stylesheet" href="shop_navbar.css" type="text/css"/>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         
         <!-- Setting the webpage font -->
@@ -23,6 +26,23 @@ session_start()
     </head>
     
     <body>
+        <!-- Adding navigation bar to the page -->
+        <header>
+            <div class="container">
+                
+                <img class="logo" src="../Images/company_logo_trans.png">
+                
+                <nav>
+                    <ul>
+                        <li><a href="shophome.html">Shop Home</a></li>
+                        <li><a href="about_cloud.html">About Cloud</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="../homepage.html">Personal Website</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
         
         <h4 class="ebus2_heading">Please enter your payment details</h4>
         
