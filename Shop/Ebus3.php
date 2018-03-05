@@ -19,6 +19,9 @@ session_start()
         
         <!-- setting webpage favicon -->
         <link rel="shortcut icon" type="image/ico" href="Images/favicon.ico">
+        
+        <!-- Google icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     
     <body>
@@ -40,34 +43,38 @@ session_start()
             </div>
         </header>
         
-        <h4 class="ebus3_heading">Purchase Receipt</h4>
-        
-        <?php  
-        // Set session variables
-          $_SESSION["user_name"] = $_POST["user_name"];
-          $_SESSION["user_email"] = $_POST["user_email"];
-        ?>
-        
-        <p class="ebus3_name">
-            <?php
-            // Echo session variables that were set on the previous pages
-            echo "Name: " . $_SESSION["user_name"] . ".";
+        <div class="ebus_content">
+            <h1 class="ebus3_heading">Purchase Receipt</h1>
+            
+            <?php  
+            // Set session variables
+              $_SESSION["user_name"] = $_POST["user_name"];
+              $_SESSION["user_email"] = $_POST["user_email"];
             ?>
-        </p>
-        
-        <p class="ebus3_email">
-            <?php
-            // Echo session variables that were set on the previous pages
-            echo "Email: " . $_SESSION["user_email"] . ".";
-            ?>
-        </p>
-        
-        <p class="ebus3_total">
-            <?php
-            // Echo session variables that were set on the previous pages
-            echo "Total: " . $_SESSION["total"] . ".";
-            ?>
-        </p>
+            
+            <p class="ebus3_name">
+                <?php
+                // Echo session variables that were set on the previous pages
+                echo "Name: " . $_SESSION["user_name"] . ".";
+                ?>
+            </p>
+            
+            <p class="ebus3_email">
+                <?php
+                // Echo session variables that were set on the previous pages
+                echo "Email: " . $_SESSION["user_email"] . ".";
+                ?>
+            </p>
+            
+            <p class="ebus3_total">
+                <?php
+                // Echo session variables that were set on the previous pages
+                echo "Total: " . $_SESSION["total"] . ".";
+                ?>
+            </p>
+            
+            <a class="home_btn" role="button" href="shophome.html">Home</a>
+        </div>
     </body>
 </html>
 

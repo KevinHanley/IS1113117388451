@@ -18,6 +18,34 @@
         
         <!-- Google icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+                var productconEl = $('div.products_container2'),
+                productconElOffset = productconEl.offset().top/1.2,
+                productconElsecond = $('div.products_container3'),
+                productconElOffsetsecond = productconElsecond.offset().top/1.2,
+                productconElthird = $('div.products_container4'),
+                productconElOffsetthird = productconElthird.offset().top/1.2,
+                productconElfourth = $('div.products_container5'),
+                productconElOffsetfourth = productconElfourth.offset().top/1.2,
+                documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    if ( documentEl.scrollTop() > productconElOffset && productconEl.hasClass('hidden') ) productconEl.removeClass('hidden');
+                    if ( documentEl.scrollTop() > productconElOffsetsecond && productconElsecond.hasClass('hidden2') ) productconElsecond.removeClass('hidden2');
+                    if ( documentEl.scrollTop() > productconElOffsetthird && productconElthird.hasClass('hidden3') ) productconElthird.removeClass('hidden3');
+                    if ( documentEl.scrollTop() > productconElOffsetfourth && productconElfourth.hasClass('hidden4') ) productconElfourth.removeClass('hidden4');
+                    
+                });
+            })();
+        </script>
     </head>
     
     <body>
@@ -44,17 +72,17 @@
         
         <!-- Adding content to the page -->
         <div class="products_container1">
-            <h1 class="products_message">Products on Offer</h1>
+            <h1 class="products_message">Products</h1>
             
             <i class="material-icons">arrow_downward</i>
         </div>
         
-        <div class="products_container2">
+        <div class="products_container2 hidden">
             <img src="../Images/salesforce_logo.png">
             
             <h1 class="products_name1">SalesForce</h1>
             
-            <p class="company_info4">
+            <p class="company_info6">
             Salesforce started as Software as a Service (SaaS) CRM company. Salesforce now provides various 
             software solutions and a platform for users and developers to develop and distribute custom software. 
             Salesforce.com is based on multi-tenant architecture. This means that multiple customers share common 
@@ -73,12 +101,12 @@
             </p>
         </div>
         
-        <div class="products_container3">
+        <div class="products_container3 hidden2">
             <img src="../Images/cloud9_logo.png">
             
             <h1 class="products_name2">Cloud9</h1>
             
-            <p class="company_info5">
+            <p class="company_info7">
             Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, 
             and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 
             comes pre-packaged with essential tools for popular programming languages including JavaScript, 
@@ -96,12 +124,12 @@
             </p>
         </div>
         
-        <div class="products_container4">
+        <div class="products_container4 hidden3">
             <img src="../Images/aws_logo.png">
             
             <h1 class="products_name1">AWS</h1>
             
-            <p class="company_info4">
+            <p class="company_info6">
             Amazon Web Services (AWS) launched in 2006 from the internal infrastructure that Amazon.com built to handle its online 
             retail operations. AWS was one of the first companies to introduce a pay-as-you-go cloud computing 
             model that scales to provide users with compute, storage or throughput as needed.
@@ -118,24 +146,39 @@
             </p>
         </div>
         
-        <div class="products_container5">
+        <div class="products_container5 hidden4">
             <img src="../Images/gmail_logo.png">
             
             <h1 class="products_name2">Gmail</h1>
             
-            <p class="company_info5">
-            This is gmail.
+            <p class="company_info7">
+             Users can access Gmail on the web and using third-party programs that synchronize email content through POP or 
+             IMAP protocols. Gmail keeps you updated with real-time message notifications, and safely stores your important 
+             emails and data. IT admins can centrally manage accounts across your organization and devices.
+             <br>
+             <br>
+             Access your email anytime, anywhere, on any device—no Internet connection needed. Read and draft messages without 
+             connectivity, and they’ll be ready to send when you’re back online
             </p>
         </div>
         
         <div class="products_container6">
-            <h1 class="products_finaltitle">See something you like?</h1>
+            <h1 class="products_ready">See something you like?</h1>
             
-            <p class="company_info6">
-            More content here.
-            
-            <a href="Ebus1.php" class="ebus_btn">Goto Ebus1</a>
+            <p class="company_info8">
+                <a href="Ebus1.php" class="ebus_btn">Browse Our Products</a>
             </p>
+            
+            <h1 class="products_notready">Not ready just yet?</h1>
+            
+            <p class="products_social">
+                If you have an questions then why not ask us? Visit our social media sites or call us on the numbers below!
+            </p>
+            
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            <a href="https://ie.linkedin.com/" class="fa fa-linkedin"></a>
         </div>
         
         <!-- Displaying copyright information -->

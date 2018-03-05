@@ -18,6 +18,31 @@
         
         <!-- Google icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+                var aboutconEl = $('div.aboutcloud_container4'),
+                aboutconElOffset = aboutconEl.offset().top/1.2,
+                aboutconElsecond = $('div.aboutcloud_container5'),
+                aboutconElOffsetsecond = aboutconElsecond.offset().top/1.2,
+                aboutconElthird = $('div.aboutcloud_container6'),
+                aboutconElOffsetthird = aboutconElthird.offset().top/1.1,
+                aboutconElfourth = $('div.aboutcloud_container7'),
+                aboutconElOffsetfourth = aboutconElfourth.offset().top/1.1,
+                documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    if ( documentEl.scrollTop() > aboutconElOffset && aboutconEl.hasClass('hidden') ) aboutconEl.removeClass('hidden');
+                    if ( documentEl.scrollTop() > aboutconElOffsetsecond && aboutconElsecond.hasClass('hidden2') ) aboutconElsecond.removeClass('hidden2');
+                    if ( documentEl.scrollTop() > aboutconElOffsetthird && aboutconElthird.hasClass('hidden3') ) aboutconElthird.removeClass('hidden3');
+                    if ( documentEl.scrollTop() > aboutconElOffsetfourth && aboutconElfourth.hasClass('hidden4') ) aboutconElfourth.removeClass('hidden4');
+                    
+                });
+            })();
+        </script>
     </head>
     
     <body>
@@ -80,7 +105,7 @@
         </div>
         
         
-        <div class="aboutcloud_container4">
+        <div class="aboutcloud_container4 hidden">
             <h3 class="company_info1">Software as a Service</h3>
             
             <p class="company_info4">Software as a service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to 
@@ -99,7 +124,7 @@
             </p>
         </div>
         
-        <div class="aboutcloud_container5">
+        <div class="aboutcloud_container5 hidden2">
             <h3 class="company_info1">Platform as a Service</h3>
             
             <p class="company_info4">Platform as a service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools, usually those 
@@ -119,10 +144,10 @@
             </p>
         </div>
         
-        <div class="aboutcloud_container6">
+        <div class="aboutcloud_container6 hidden3">
             <h3 class="company_info1">Infrastructre as a Service</h3>
             
-            <p class="company_info4">Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet. In an 
+            <p class="company_info5">Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet. In an 
             IaaS model, a cloud provider hosts the infrastructure components traditionally present in an on-premises data center, including servers, storage and networking 
             hardware, as well as the virtualization or hypervisor layer. The IaaS provider also supplies a range of services to accompany those infrastructure components. 
             These can include detailed billing, monitoring, log access, security, load balancing and clustering, as well as storage resiliency, such as backup, replication 
@@ -140,17 +165,14 @@
             </p>
         </div>
         
-        <div class="aboutcloud_container7">
+        <div class="aboutcloud_container7 hidden4">
             <h3 class="company_info1">Communication as a Service</h3>
             
-            <p class="company_info4">Communications as a Service (CaaS) is an outsourced enterprise communications solution that can be leased from a single vendor. Such 
+            <p class="company_info5">Communications as a Service (CaaS) is an outsourced enterprise communications solution that can be leased from a single vendor. Such 
             communications can include voice over IP (VoIP or Internet telephony), instant messaging (IM), collaboration and videoconference applications using fixed and 
-            mobile devices. CaaS has evolved along the same lines as Software as a Service (SaaS). The CaaS vendor is responsible for all hardware and software management 
-            and offers guaranteed Quality of Service (QoS). CaaS allows businesses to selectively deploy communications devices and modes on a pay-as-you-go, as-needed 
-            basis. This approach eliminates the large capital investment and ongoing overhead for a system whose capacity may often exceed or fall short of current demand.
-            <br>
-            <br>
-            An example of CaaS is Google's Gmail .
+            mobile devices. The CaaS vendor is responsible for all hardware and software management and offers guaranteed Quality of Service (QoS). CaaS allows businesses 
+            to selectively deploy communications devices and modes on a pay-as-you-go, as-needed basis. This approach eliminates the large capital investment and ongoing 
+            overhead for a system whose capacity may often exceed or fall short of current demand.
             <br>
             <br>
             CaaS offers flexibility and expandability that small and medium-sized business might not otherwise afford, allowing for the addition of devices, modes or coverage 
@@ -158,7 +180,8 @@
             wasted. There is no risk of the system becoming obsolete and requiring periodic major upgrades or replacement.
             <br>
             <br>
-            Find out more on the <a href="https://www.google.com/gmail/about/#">Gmail </a>website.
+            An example of CaaS is Google's Gmail.
+            Find out more on the <a href="https://gsuite.google.ie/intl/en_ie/products/gmail/">Gmail </a>website.
             </p>
         </div>
         

@@ -23,6 +23,9 @@ session_start()
         
         <!-- setting webpage favicon -->
         <link rel="shortcut icon" type="image/ico" href="Images/favicon.ico">
+        
+        <!-- Google icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     
     <body>
@@ -44,45 +47,48 @@ session_start()
             </div>
         </header>
         
-        <h4 class="ebus2_heading">Please enter your payment details</h4>
-        
-        <form action="Ebus3.php" method="POST">
+        <div class="ebus_content">
+            <h1 class="ebus2_heading">Please enter your payment details</h1>
             
-            <label for="user_name" class="lbl_name">
-                Name
-                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
-            </label>
-            
-            <br>
-            
-            <label for="user_email" class="lbl_email">
-                Email address
-                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
-            </label>
-            
-            <br>
-
-            <label for="user_pin" class="lbl_pin">
-                PIN
-                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+            <form action="Ebus3.php" method="POST">
+                
+                <label for="user_name" class="lbl_name">
+                    Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+                </label>
+                
                 <br>
-                (Only numbers are allowed for the PIN)
-            </label>
-            
-            <br>
-            <br>
-            
-            <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-        </form>
-        
-        <br>
-        
-        <button class="btn_validate" onClick="validateName()">Validate</button>
+                
+                <label for="user_email" class="lbl_email">
+                    Email address 
+                    <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+                </label>
+                
+                <br>
     
-        <?php  
-        // Set session variables
-          $_SESSION["total"] = $_POST["total"];
-        ?>
+                <label for="user_pin" class="lbl_pin">
+                    PIN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                    <br>
+                    (Only numbers are allowed for the PIN)
+                </label>
+                
+                <br>
+                <br>
+                
+                <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+            </form>
+            
+            <br>
+            
+            <button class="btn_validate" onClick="validateName()">Validate</button>
+            
+            <a class="return_btn" role="button" href="Ebus1.php"><i class="material-icons">keyboard_arrow_left</i>Return</a>
         
+            <?php  
+            // Set session variables
+              $_SESSION["total"] = $_POST["total"];
+            ?>
+        </div>
     </body>
 </html>
