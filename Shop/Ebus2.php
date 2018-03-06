@@ -47,20 +47,21 @@ session_start()
             </div>
         </header>
         
+        <!-- Adding content to the page -->
         <div class="ebus_content">
             <h1 class="ebus2_heading">Please enter your payment details</h1>
             
             <form action="Ebus3.php" method="POST">
                 
                 <label for="user_name" class="lbl_name">
-                    Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Username &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
                 </label>
                 
                 <br>
                 
                 <label for="user_email" class="lbl_email">
-                    Email address 
+                    Email Address 
                     <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
                 </label>
                 
@@ -90,5 +91,14 @@ session_start()
               $_SESSION["total"] = $_POST["total"];
             ?>
         </div>
+        
+        <!-- Displaying copyright information -->
+        <footer class="ebus_copyright">
+            <p>
+                <small>&copy; Copyright 2006-2018 Weightless Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
+                <br>
+                <small>Weightless.com Limited, 29 Fake Street, Cork, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
+            </p>
+        </footer>
     </body>
 </html>

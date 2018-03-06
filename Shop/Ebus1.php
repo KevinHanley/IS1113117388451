@@ -43,6 +43,7 @@
             </div>
         </header>
         
+        <!-- Adding page content -->
         <div class="ebus_content">
             <div class="changing_pic">
               <img id="pic_test" src="../Images/salesforce_logo.png">
@@ -129,5 +130,14 @@
             <!-- button for clearing the selected options -->    
             <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice <i class="material-icons">delete</i></a>
         </div>
+        
+        <!-- Displaying copyright information -->
+        <footer class="ebus_copyright">
+            <p>
+                <small>&copy; Copyright 2006-2018 Weightless Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
+                <br>
+                <small>Weightless.com Limited, 29 Fake Street, Cork, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
+            </p>
+        </footer>
     </body>
 </html>

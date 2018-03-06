@@ -56,9 +56,11 @@ function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
 }
 
+
 function rbChecked(){
   disablebtnProceed();
     
+    /* Displays the picture of the selected radio button product */
     if(document.getElementById('salesforce').checked) {
       document.getElementById('pic_test').src='../Images/salesforce_logo.png';
     }

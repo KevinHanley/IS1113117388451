@@ -25,12 +25,14 @@
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
+    <!-- This JQuery is based on the following video but has been adapted for my website: https://www.youtube.com/watch?v=RY5ZAUtrlaM -->
+    <!-- When scrolling down the page then the following elements will become visible -->
         <script>
             $(document).ready(function(){
                 var productconEl = $('div.products_container2'),
-                productconElOffset = productconEl.offset().top/1.2,
+                productconElOffset = productconEl.offset().top/2,
                 productconElsecond = $('div.products_container3'),
-                productconElOffsetsecond = productconElsecond.offset().top/1.2,
+                productconElOffsetsecond = productconElsecond.offset().top/1.5,
                 productconElthird = $('div.products_container4'),
                 productconElOffsetthird = productconElthird.offset().top/1.2,
                 productconElfourth = $('div.products_container5'),
