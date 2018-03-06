@@ -22,25 +22,25 @@
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
-    <!-- This JQuery is based on the following video but has been adapted for my website: https://www.youtube.com/watch?v=RY5ZAUtrlaM -->
-    <!-- When scrolling down the page then the following elements will become visible -->
-    <script>
-        $(document).ready(function(){
-            var shopconEl = $('div.shophome_container2'),
-            shopconElOffset = shopconEl.offset().top/2,
-            shopconElsecond = $('div.shophome_container4'),
-            shopconElOffsetsecond = shopconElsecond.offset().top/1.2,
-            shopconElthird = $('div.shophome_container6'),
-            shopconElOffsetthird = shopconElthird.offset().top/1.1,
-            documentEl = $(document);
-            
-            documentEl.on('scroll', function() {
-                if ( documentEl.scrollTop() > shopconElOffset && shopconEl.hasClass('hidden') ) shopconEl.removeClass('hidden');
-                if ( documentEl.scrollTop() > shopconElOffsetsecond && shopconElsecond.hasClass('hidden2') ) shopconElsecond.removeClass('hidden2');
-                if ( documentEl.scrollTop() > shopconElOffsetthird && shopconElthird.hasClass('hidden3') ) shopconElthird.removeClass('hidden3');
-            });
-        })();
-    </script>
+        <!-- This JQuery is based on the following video but has been adapted for my website: https://www.youtube.com/watch?v=RY5ZAUtrlaM -->
+        <!-- When scrolling down the page then the following elements will become visible -->
+        <script>
+            $(document).ready(function(){
+                var shopconEl = $('div.shophome_container2'),
+                shopconElOffset = shopconEl.offset().top/2,
+                shopconElsecond = $('div.shophome_container4'),
+                shopconElOffsetsecond = shopconElsecond.offset().top/1.2,
+                shopconElthird = $('div.shophome_container6'),
+                shopconElOffsetthird = shopconElthird.offset().top/1.1,
+                documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    if ( documentEl.scrollTop() > shopconElOffset && shopconEl.hasClass('hidden') ) shopconEl.removeClass('hidden');
+                    if ( documentEl.scrollTop() > shopconElOffsetsecond && shopconElsecond.hasClass('hidden2') ) shopconElsecond.removeClass('hidden2');
+                    if ( documentEl.scrollTop() > shopconElOffsetthird && shopconElthird.hasClass('hidden3') ) shopconElthird.removeClass('hidden3');
+                });
+            })();
+        </script>
     </head>
     
     <body>
